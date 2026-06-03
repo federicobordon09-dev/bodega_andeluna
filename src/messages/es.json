@@ -1,0 +1,454 @@
+{
+  "common": {
+    "nav": {
+      "wines": "Vinos",
+      "winery": "Bodega",
+      "experiences": "Experiencias",
+      "lodge": "Lodge",
+      "contact": "Contacto",
+      "reserve": "Reservar",
+      "shop": "Tienda",
+      "press": "Prensa"
+    },
+    "footer": {
+      "brand": "Vinos de alta montaña",
+      "region": "Gualtallary, Valle de Uco",
+      "navigation": "Navegación",
+      "contact": "Contacto",
+      "address": "Dirección",
+      "addressValue": "RP89 Km 11, M5561 Tupungato, Mendoza",
+      "tourism": "Turismo",
+      "visits": "Visitas",
+      "email": "Email",
+      "hours": "Horarios",
+      "winery": "Bodega",
+      "wineryHours": "10:00 – 21:00 hs",
+      "reservations": "Reservas",
+      "reservationHours": "08:30 – 20:30 hs",
+      "copyright": "Todos los derechos reservados.",
+      "founded": "Fundada en 2003 · Gualtallary, Tupungato, Mendoza",
+      "social": "Redes",
+      "facebook": "Facebook",
+      "youtube": "YouTube",
+      "instagram": "Instagram"
+    },
+    "slides": [
+      {
+        "eyebrow": "Valle de Uco · +1.300 msnm",
+        "titleLine1": "Vinos de",
+        "titleHighlight": "Alta Montaña",
+        "subtitle": "Donde los Andes tocan el cielo, nacen vinos que cuentan la historia de la altitud y el tiempo.",
+        "cta1Label": "Explorar Vinos",
+        "cta2Label": "Experiencias"
+      },
+      {
+        "eyebrow": "Orgánico · Sustentable",
+        "titleLine1": "Organic",
+        "titleHighlight": "Malbec",
+        "subtitle": "Viticultura sustentable en altitud. Pureza, frescura y compromiso con el medio ambiente.",
+        "cta1Label": "Descubrir"
+      },
+      {
+        "eyebrow": "¡Nuevo!",
+        "titleLine1": "Wine",
+        "titleHighlight": "Not?",
+        "subtitle": "Etiqueta irreverente. Malbec joven, frutado, divertido. Para disfrutar sin formalidades.",
+        "cta1Label": "Conocer"
+      },
+      {
+        "eyebrow": "1300 msnm",
+        "titleLine1": "1300 Torrontés",
+        "titleHighlight": "Dulce",
+        "subtitle": "Dulce natural con equilibrio perfecto. Frutas tropicales, miel, final fresco.",
+        "cta1Label": "Explorar"
+      },
+      {
+        "eyebrow": "Lodge",
+        "titleLine1": "Dormí entre",
+        "titleHighlight": "los Viñedos",
+        "subtitle": "4 cabañas privadas con vistas a la Cordillera de los Andes. Tu refugio en el Valle de Uco.",
+        "cta1Label": "Reservar"
+      },
+      {
+        "eyebrow": "Reconocimiento",
+        "titleLine1": "Reconocidos",
+        "titleHighlight": "a Nivel Mundial",
+        "subtitle": "Reconocidos entre los 100 mejores vinos del mundo. Calidad que habla por sí sola.",
+        "cta1Label": "Ver Premios"
+      }
+    ],
+    "stats": {
+      "eyebrow": "En números",
+      "meters": "+1,300 msnm",
+      "hectares": "70 hectáreas",
+      "countries": "+30 países",
+      "founded": "Fundada",
+      "foundedYear": "2003"
+    },
+    "history": {
+      "eyebrow": "Nuestra Historia",
+      "title": "Una bodega de montaña",
+      "text1": "En 2003, Andeluna nació con una visión clara: crear vinos que expresen la altitud, el clima extremo y las condiciones únicas de Gualtallary, a más de 1.300 metros sobre el nivel del mar.",
+      "text2": "Cada vintage es una reflexión del terruño. La mínima intervención en bodega permite que la fruta hable por sí sola, revelando la frescura, la mineralidad y la elegancia que solo la alta montaña puede ofrecer.",
+      "cta": "Conocer la bodega"
+    },
+    "featuredWines": {
+      "eyebrow": "Catálogo",
+      "title": "Nuestros Vinos",
+      "subtitle": "Los vinos de Andeluna son el reflejo del suelo y la tierra. Cada botella posee nuestra identidad geográfica: Gualtallary, Tupungato.",
+      "viewAll": "Ver todos los vinos"
+    },
+    "featuredExperiences": {
+      "eyebrow": "Experiencias",
+      "title": "Viví Andeluna",
+      "subtitle": "Descubrí nuestras experiencias únicas en el Valle de Uco.",
+      "viewAll": "Ver todas las experiencias",
+      "live": "en vivo"
+    },
+    "awards": {
+      "eyebrow": "Reconocimientos",
+      "title": "Premios y Prensa",
+      "luxury": "Mejor Experiencia Enoturística",
+      "luxurySource": "Luxury Lifestyle Awards 2023",
+      "decanter": "Medalla de Oro",
+      "decanterSource": "Decanter World Wine Awards",
+      "timAtkin": "96 Puntos",
+      "timAtkinSource": "Tim Atkin MW"
+    },
+    "lodgeTeaser": {
+      "eyebrow": "Andeluna Winery Lodge",
+      "title": "Dormí entre los viñedos",
+      "text": "8 lodges independientes de 42–45 m². Solo adultos. Deck privado, aire acondicionado, minibar, Wi-Fi. Spa y bicicletas incluidas.",
+      "ratingLabel": "Rating de nuestros huéspedes",
+      "cta": "Conocer el Lodge"
+    },
+    "instagram": {
+      "eyebrow": "Instagram",
+      "title": "Seguinos",
+      "handle": "@bodegaandeluna"
+    },
+    "cta": {
+      "title": "Reservá tu",
+      "highlight": "experiencia",
+      "text": "Descubrí nuestros vinos, restaurante y lodge en el corazón del Valle de Uco.",
+      "button": "Reservar ahora"
+    },
+    "pageHero": {
+      "contact": {
+        "title": "Contacto",
+        "subtitle": "Reservá tu experiencia o consultanos para planificar tu visita."
+      },
+      "winery": {
+        "title": "La Bodega",
+        "subtitle": "Conocé Andeluna: terroir, filosofía, arquitectura y equipo."
+      },
+      "experiences": {
+        "title": "Experiencias",
+        "subtitle": "Descubrí nuestras experiencias únicas en el Valle de Uco."
+      },
+      "lodge": {
+        "title": "Winery Lodge",
+        "subtitle": "8 lodges independientes donde los viñedos se extienden hasta la Cordillera."
+      },
+      "wines": {
+        "title": "Nuestros Vinos",
+        "subtitle": "Los vinos de Andeluna son el reflejo del suelo y la tierra."
+      },
+      "press": {
+        "title": "Prensa",
+        "subtitle": "Noticias, artículos y reconocimientos de Bodega Andeluna."
+      }
+    },
+    "contactForm": {
+      "nameLabel": "Nombre *",
+      "namePlaceholder": "Tu nombre",
+      "emailLabel": "Email *",
+      "emailPlaceholder": "tu@email.com",
+      "phoneLabel": "Teléfono",
+      "phonePlaceholder": "+54 9 261 ...",
+      "dateLabel": "Fecha de visita",
+      "peopleLabel": "Personas",
+      "peopleSelect": "Seleccionar",
+      "people12": "1–2 personas",
+      "people34": "3–4 personas",
+      "people58": "5–8 personas",
+      "people8plus": "Más de 8 personas",
+      "messageLabel": "Mensaje *",
+      "messagePlaceholder": "Contanos sobre tu visita, cantidad de personas, fecha preferida...",
+      "submit": "Enviar mensaje",
+      "sending": "Enviando...",
+      "success": "¡Mensaje enviado! Te contactaremos pronto.",
+      "honeypot": "No completar",
+      "errorName": "Ingresá tu nombre",
+      "errorEmail": "Ingresá tu email",
+      "errorEmailInvalid": "Ingresá un email válido",
+      "errorPhone": "Ingresá un teléfono válido",
+      "errorMinLength": "Escribí al menos 10 caracteres",
+      "errorCooldown": "Esperá unos segundos antes de enviar de nuevo",
+      "errorSlowdown": "Por favor, esperá un momento antes de enviar.",
+      "errorTitle": "¡Mensaje enviado!"
+    },
+    "contact": {
+      "formTitle": "Hablemos",
+      "formEyebrow": "Escribinos",
+      "infoTitle": "Datos de contacto",
+      "infoEyebrow": "Información",
+      "address": "Dirección",
+      "addressValue": "RP89 Km 11, M5561 Tupungato, Mendoza",
+      "tourism": "Turismo",
+      "tourismValue": "info@andeluna.com",
+      "visits": "Visitas",
+      "visitsValue": "visitas@andeluna.com",
+      "hours": "Horarios",
+      "hoursBodega": "Bodega: 10:00 – 21:00 hs",
+      "hoursReservas": "Reservas: 08:30 – 20:30 hs",
+      "social": "Redes",
+      "shop": "Tienda Online"
+    },
+    "winery": {
+      "title": "La Bodega",
+      "subtitle": "Conocé Andeluna: terroir, filosofía, arquitectura y equipo.",
+      "historyEyebrow": "Historia",
+      "historyTitle": "Una bodega ideal",
+      "historyText1": "En 2003, la familia Barale fundó Andeluna con el sueño de crear vinos de alta montaña en Gualtallary.",
+      "historyText2": "Hoy, con más de 20 años de experiencia, la bodega es referente del Valle de Uco.",
+      "terroirEyebrow": "Terroir",
+      "terroirTitle": "Gualtallary, Valle de Uco",
+      "terroirText": "Suelos calcáreos, altitud extrema y clima de montaña. Un terroir único que define la identidad de nuestros vinos.",
+      "philosophyEyebrow": "Filosofía",
+      "philosophyTitle": "Mínima intervención",
+      "philosophyText": "Respetamos el fruto. Cada decisión en bodega busca preservar la expresión pura del terroir.",
+      "architectureEyebrow": "Arquitectura",
+      "architectureTitle": "Diseñada para el vino",
+      "architectureText": "La bodega fue diseñada para aprovechar la gravedad y optimizar el proceso de elaboración.",
+      "teamEyebrow": "Equipo",
+      "teamTitle": "Los que hacen posible Andeluna",
+      "teamText": "Un equipo apasionado que trabaja con dedicación en cada etapa del proceso.",
+      "isoEyebrow": "Certificaciones",
+      "isoTitle": "Compromiso con la calidad",
+      "isoText": "Certificaciones que garantizan la calidad y sustentabilidad de nuestros vinos.",
+      "mapEyebrow": "Encontranos",
+      "mapTitle": "Visitanos en",
+      "mapHighlight": "Gualtallary",
+      "mapButton": "Abrir en Google Maps"
+    },
+    "lodgePage": {
+      "title": "Winery Lodge",
+      "subtitle": "8 lodges independientes donde los viñedos se extienden hasta la Cordillera.",
+      "aboutEyebrow": "Sobre el Lodge",
+      "aboutTitle": "Donde el viñedo se convierte en hogar",
+      "aboutText1": "Inaugurado en 2023 como parte del 20° aniversario de la bodega, el Andeluna Winery Lodge ofrece 8 lodges independientes de 42–45 m² diseñados para una experiencia exclusiva solo para adultos.",
+      "aboutText2": "Cada lodge cuenta con deck privado con vista a los Andes, aire acondicionado, minibar y Wi-Fi. El spa y las bicicletas están incluidos para que disfrutes del entorno a tu ritmo.",
+      "galleryEyebrow": "Galería",
+      "galleryTitle": "Un vistazo al lodge",
+      "amenitiesEyebrow": "Amenities",
+      "amenitiesTitle": "Todo incluido para tu comfort",
+      "amenity1": "Bicicletas",
+      "amenity2": "Deck privado",
+      "amenity3": "Aire acondicionado",
+      "amenity4": "Minibar",
+      "ratingTitle": "Calificación",
+      "ratingText": "Rating de nuestros huéspedes",
+      "ctaTitle": "Reservá tu estadía",
+      "ctaText": "Viví la experiencia completa de Bodega Andeluna durmiendo entre los viñedos.",
+      "ctaButton": "Visitar sitio del Lodge",
+      "galleryAlt1": "Lodge moderno en viñedo",
+      "galleryAlt2": "Deck del lodge con vista a los Andes",
+      "galleryAlt3": "Lodge al atardecer",
+      "galleryAlt4": "Entrada del lodge",
+      "galleryAlt5": "Lodge con viñedo",
+      "galleryAlt6": "Vista desde el lodge"
+    },
+    "wines": {
+      "title": "Nuestros Vinos",
+      "subtitle": "Los vinos de Andeluna son el reflejo del suelo y la tierra. Cada botella posee nuestra identidad geográfica: Gualtallary, Tupungato.",
+      "lineCentral": "Línea Central",
+      "especial": "Edición Especial",
+      "allWines": "Todos los vinos",
+      "viewAll": "Ver todos los vinos",
+      "viewDetails": "Ver detalles",
+      "introEyebrow": "Nuestra filosofía",
+      "introTitle": "Vinos de",
+      "introHighlight": "alta montaña",
+      "introText": "A más de 1.300 metros sobre el nivel del mar, cada uva desarrolla una concentración y frescura únicas. Nuestros vinos expresan la identidad de Gualtallary: mineralidad, elegancia y la firma inconfundible de los Andes.",
+      "collectionEyebrow": "Catálogo",
+      "collectionTitle": "La esencia de",
+      "collectionHighlight": "Andeluna",
+      "wineCount": "vinos",
+      "limitedEyebrow": "Exclusivos",
+      "limitedTitle": "Ediciones",
+      "limitedHighlight": "limitadas",
+      "tastingEyebrow": "Degustación",
+      "tastingTitle": "Probá nuestros",
+      "tastingHighlight": "vinos",
+      "tastingText": "Reservá una experiencia de cata y descubrí la colección completa de Andeluna en el corazón del Valle de Uco.",
+      "tastingButton": "Reservar cata",
+      "altitud": "Altitud",
+      "raices": "Raíces",
+      "emblem": "Emblema",
+      "francs": "Francs"
+    },
+    "press": {
+      "title": "Prensa",
+      "subtitle": "Noticias, artículos y reconocimientos de Bodega Andeluna.",
+      "readMore": "Leer más",
+      "articles": [
+        {
+          "title": "Tim Atkin: 96 puntos para Pasionado Cabernet Franc",
+          "description": "El reconocido crítico británico otorgó 96 puntos al Pasionado Cabernet Franc, destacando su elegancia y potencial de guarda."
+        },
+        {
+          "title": "Decanter: Oro para 1300 Malbec",
+          "description": "El 1300 Malbec conquistó el paladar de los jueces internacionales con una medalla de Oro en los prestigiosos premios Decanter."
+        },
+        {
+          "title": "Top 100: Andeluna entre los mejores del mundo",
+          "description": "Andeluna fue reconocida como una de las 100 bodegas más importantes de Latinoamérica."
+        },
+        {
+          "title": "La montaña como filosofía de vida",
+          "description": "Un perfil profundo sobre la filosofía de Andeluna y cómo la altitud define cada aspecto de la producción."
+        },
+        {
+          "title": "Gualtallary: el terroir que conquista al mundo",
+          "description": "Artículo sobre la región de Gualtallary y su importancia en el vino argentino, con mención a Andeluna como pionera."
+        },
+        {
+          "title": "Sustentabilidad en altura",
+          "description": "Cómo Andeluna implementa prácticas orgánicas y sustentables a 1.300 metros sobre el nivel del mar."
+        }
+      ]
+    },
+    "experiences": {
+      "title": "Experiencias",
+      "subtitle": "Descubrí nuestras experiencias únicas en el Valle de Uco.",
+      "viewAll": "Ver todas las experiencias",
+      "reserve": "Reservar experiencia",
+      "list": [
+        {
+          "slug": "restaurante",
+          "imageUrl": "/DSC_8926.jpg",
+          "title": "Restaurante",
+          "duration": "Mar–Dom 10-20hs",
+          "description": "Menú Heights de 6 pasos con maridaje. Relax en jardines y clase de empanadas.",
+          "highlights": ["Menú Heights 6 pasos", "Jardines", "Clase de empanadas"]
+        },
+        {
+          "slug": "juego-de-blend",
+          "imageUrl": "/IMG_1995.jpg",
+          "title": "Juego de Blend",
+          "duration": "1:30hs",
+          "description": "Diseñá tu vino, creá tu etiqueta, y te lo llevás. Una experiencia única e interactiva.",
+          "highlights": ["Diseñá tu vino", "Etiqueta personalizada", "Te lo llevás"]
+        },
+        {
+          "slug": "tardecitas",
+          "imageUrl": "/26318749305c52ba95fe2ad274e95dadb25be83024a.jpg",
+          "title": "Tardecitas",
+          "duration": "3hs",
+          "description": "Menú Desestructurado en los jardines al atardecer. Incluye una botella cada 2 personas.",
+          "highlights": ["Menú Desestructurado", "Atardecer en jardines", "Botella cada 2 personas"]
+        },
+        {
+          "slug": "la-montana-en-una-copa",
+          "imageUrl": "/G-0021.jpg",
+          "title": "La Montaña en una Copa",
+          "duration": "2hs",
+          "description": "Cata de vinos emblemáticos con vistas a la Cordillera de los Andes.",
+          "highlights": ["Cata de emblemáticos", "Vistas a la Cordillera"]
+        },
+        {
+          "slug": "degustacion-ed-limitada",
+          "imageUrl": "/G-009.jpg",
+          "title": "Degustación Ed. Limitada",
+          "duration": "1:30hs",
+          "description": "5 vinos de edición limitada con maridaje selecto.",
+          "highlights": ["5 vinos edición limitada", "Maridaje selecto"]
+        },
+        {
+          "slug": "vino-y-chocolate",
+          "imageUrl": "/DSC_8926.jpg",
+          "title": "Vino y Chocolate",
+          "duration": "1:30hs",
+          "description": "Experiencia sensorial con chocolates artesanales especiados y vinos seleccionados.",
+          "highlights": ["Experiencia sensorial", "Chocolates artesanales", "Vinos seleccionados"]
+        }
+      ]
+    },
+    "wineDescriptions": {
+      "pasionadoMalbec": "Malbec pasional, concentrado, con fruta madura y especias. Gran personalidad.",
+      "pasionadoCabFranc": "96 puntos Tim Atkin. Fruital, vibrante, con gran potencial de guarda.",
+      "pasionadoCuatroCepas": "Cuatro cepas, una pasión. Blend complejo con la firmeza de los Andes.",
+      "altitudMalbec": "Malbec de alta montaña. Fresco, con notas florales y mineralidad característica.",
+      "altitudMerlot": "Merlot elegante de altura. Notas de ciruela, chocolate y sedosidad.",
+      "altitudCabSauv": "Cabernet Sauvignon potente. Estructura firme, fruta negra, taninos maduros.",
+      "altitudPinot": "Pinot Noir de montaña. Delicado, aromático, con notas de frambuesa y flores.",
+      "altitudChardonnay": "Chardonnay fresco y mineral. Cítricos, notas tropicales, final vibrante.",
+      "altitudOrganicMalbec": "Malbec orgánico de alta montaña. Fresco, floral, con la pureza de la viticultura sustentable.",
+      "altitudOrganicCabSauv": "Cabernet Sauvignon orgánico. Estructura, fruta negra, certificación orgánica.",
+      "milMalbec": "Decanter Oro. Fruta concentrada, taninos sedosos, final persistente.",
+      "milMalbecMagnum": "La expresión del 1300 Malbec en formato magnum. Ideal para compartir.",
+      "milMalbec375": "Formato personal del 1300 Malbec. Perfecto para una cena íntima.",
+      "milCabSauv": "Cabernet Sauvignon clásico. Estructura, fruta negra, longevidad.",
+      "milMerlot": "Merlot redondo y sedoso. Ciruela, chocolate, suavidad con carácter.",
+      "milCabFranc": "Cabernet Franc aromático y elegante. Especias, hojas, taninos finos.",
+      "milSauvBlanc": "Sauvignon Blanc fresco y aromático. Cítricos, herbáceo, gran vivacidad.",
+      "milChardonnay": "Chardonnay de alta expresión. Fruta madura, notas de barrica, cremosidad.",
+      "milTorrontes": "Torrontés floral y exótico. Rosas, lychee, mineral. Firma del Valle de Uco.",
+      "milTorrontesDulce": "Dulce natural con equilibrio perfecto. Frutas tropicales, miel, final fresco.",
+      "raicesMalbec": "Malbec de raíces profundas. Tradicional, honesto, con identidad de terroir.",
+      "raicesCabSauv": "Cabernet Sauvignon terroir. Raíces profundas, expresión auténtica del lugar.",
+      "raicesChardonnay": "Chardonnay de raíz. Mineral, tenso, con la frescura de la montaña.",
+      "emblema": "Blend emblemático de la bodega. Complejo, elegante, con gran estructura y fruta fina.",
+      "francs": "Expresión pura del Cabernet Franc de Gualtallary. Notas especiadas, mineral, taninos finos.",
+      "blancDeFranc": "Blanco de Cabernet Franc. Mineral, cítrico, elegante. Edición limitada.",
+      "torrontes": "Torrontés puro y expresivo. Floral, exótico, con la firma varietal de Argentina.",
+      "rose": "Rosado de autor. Fresco, aromático, perfecto para todo el año.",
+      "extraBrut": "Espumante natural. Burbuja fina, notas tostadas, gran frescura.",
+      "ensambleOtonal": "Blend otoñal. Fruta madura, especias, calidez del otoño mendocino.",
+      "blancDeMalbec": "Blanco de Malbec. Exclusividad: uva tinta vinificada en blanco. Fresco, único.",
+      "wineNot": "Etiqueta irreverente. Malbec joven, frutado, divertido. Para disfrutar sin formalidades.",
+      "semillon": "Semillón elegante. Notas de cítricos, hierbas, mineralidad. Frescura extrema."
+    },
+    "ui": {
+      "bottleOf": "Botella de",
+      "reserve": "Reservar",
+      "viewAllWines": "Ver todos los vinos"
+    },
+    "altTexts": {
+      "heroWinery": "Viñedos de Bodega Andeluna con la Cordillera de los Andes",
+      "heroOrganic": "Vino Orgánico Andeluna",
+      "heroWineNot": "Wine Not? Andeluna",
+      "heroTorrontes": "1300 Torrontés Dulce Andeluna",
+      "heroLodge": "Andeluna Winery Lodge",
+      "heroAwards": "Premios de Bodega Andeluna",
+      "bodegaHero": "Bodega Andeluna en invierno con la Cordillera nevada",
+      "terroir": "Viñedos y suelo de Gualtallary",
+      "barrels": "Barricas de roble en la bodega",
+      "bodegaExterior": "Bodega exterior de noche y tanques de acero",
+      "team": "Equipo de vendimia de Bodega Andeluna",
+      "harvest": "Cosecha de uvas en el viñedo",
+      "mistyVineyard": "Trabajador en viñedo neblinoso",
+      "iso": "Certificación ISO 22000",
+      "cata": "Cata de vinos en la bodega",
+      "lodgeView": "Vista desde el lodge con vino y Andes",
+      "sunsetVineyard": "Atardecer en los viñedos de Andeluna",
+      "mapTitle": "Ubicación de Bodega Andeluna",
+      "barrelsDetail": "Barricas de roble",
+      "experiencesHero": "Cata de vinos en la bodega",
+      "contactoHero": "Exterior de Bodega Andeluna",
+      "experience-restaurante": "Cata de vinos en el Restaurante Andeluna",
+      "experience-juego-de-blend": "Juego de Blend en Bodega Andeluna",
+      "experience-tardecitas": "Tardecitas en los jardines de Andeluna",
+      "experience-la-montana-en-una-copa": "Cata con vista a la Cordillera de los Andes",
+      "experience-degustacion-ed-limitada": "Degustación de vinos edición limitada",
+      "experience-vino-y-chocolate": "Vino y chocolate artesanal en Andeluna"
+    },
+    "mapSection": {
+      "eyebrow": "Encontranos",
+      "title": "Visitanos en",
+      "highlight": "Gualtallary",
+      "button": "Abrir en Google Maps"
+    }
+  }
+}

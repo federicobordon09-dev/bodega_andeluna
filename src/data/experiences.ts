@@ -1,0 +1,58 @@
+import { Experience } from '@/types/experience'
+
+export const experiences: Experience[] = [
+  {
+    id: 'restaurante',
+    title: 'Restaurante',
+    duration: 'Mar–Dom 10-20hs',
+    description: 'Menú Heights de 6 pasos con maridaje. Relax en jardines y clase de empanadas.',
+    highlights: ['Menú Heights 6 pasos', 'Jardines', 'Clase de empanadas'],
+    imageUrl: '/DSC_8926.jpg',
+    bookingUrl: 'https://wosbooking.com/mro/andeluna',
+  },
+  {
+    id: 'juego-de-blend',
+    title: 'Juego de Blend',
+    duration: '1h 15min',
+    description: 'Diseñá tu vino, creá tu etiqueta, y te lo llevás. Una experiencia única e interactiva.',
+    highlights: ['Diseñá tu vino', 'Etiqueta personalizada', 'Te lo llevás'],
+    imageUrl: '/IMG_1995.jpg',
+    bookingUrl: 'https://wosbooking.com/mro/andeluna',
+  },
+  {
+    id: 'tardecitas',
+    title: 'Tardecitas',
+    duration: '3hs',
+    description: 'Menú Desestructurado en los jardines al atardecer. Incluye una botella cada 2 personas.',
+    highlights: ['Menú Desestructurado', 'Atardecer en jardines', 'Botella cada 2 personas'],
+    imageUrl: '/26318749305c52ba95fe2ad274e95dadb25be83024a.jpg',
+    bookingUrl: 'https://wosbooking.com/mro/andeluna',
+  },
+  {
+    id: 'la-montana-en-una-copa',
+    title: 'La Montaña en una Copa',
+    duration: '~1hs',
+    description: 'Cata de vinos emblemáticos con vistas a la Cordillera de los Andes.',
+    highlights: ['Cata de emblemáticos', 'Vistas a la Cordillera'],
+    imageUrl: '/G-0021.jpg',
+    bookingUrl: 'https://wosbooking.com/mro/andeluna',
+  },
+  {
+    id: 'degustacion-ed-limitada',
+    title: 'Degustación Ed. Limitada',
+    duration: '1h 15min',
+    description: '5 vinos de edición limitada con maridaje selecto.',
+    highlights: ['5 vinos edición limitada', 'Maridaje selecto'],
+    imageUrl: '/G-009.jpg',
+    bookingUrl: 'https://wosbooking.com/mro/andeluna',
+  },
+  {
+    id: 'vino-y-chocolate',
+    title: 'Vino y Chocolate',
+    duration: '1h 15min',
+    description: 'Experiencia sensorial con chocolates artesanales especiados y vinos seleccionados.',
+    highlights: ['Experiencia sensorial', 'Chocolates artesanales', 'Vinos seleccionados'],
+    imageUrl: '/22685902291141aad6ffd0cdf2c7a689b73dfa54014.jpg',
+    bookingUrl: 'https://wosbooking.com/mro/andeluna',
+  },
+]

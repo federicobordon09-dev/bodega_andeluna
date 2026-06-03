@@ -1,0 +1,44 @@
+.loader {
+  position: fixed;
+  inset: 0;
+  z-index: 9999;
+  background: #0a0704;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  transition: opacity 0.4s ease-out, visibility 0.4s ease-out;
+}
+
+.hidden {
+  opacity: 0;
+  visibility: hidden;
+  pointer-events: none;
+}
+
+.spinner {
+  position: relative;
+  width: 60px;
+  height: 60px;
+}
+
+.ring,
+.ringBg {
+  position: absolute;
+  inset: 0;
+  border-radius: 50%;
+  border: 3px solid transparent;
+}
+
+.ringBg {
+  border-color: rgba(201, 168, 76, 0.15);
+}
+
+.ring {
+  border-color: var(--color-gold) transparent transparent transparent;
+  animation: spin 0.8s cubic-bezier(1, 1, 1, 1) infinite;
+}
+
+@keyframes spin {
+  from { transform: rotate(0deg); }
+  to { transform: rotate(360deg); }
+}

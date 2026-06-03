@@ -1,0 +1,112 @@
+.card {
+  position: relative;
+  background: var(--color-surface);
+  border: 1px solid var(--color-gold-border);
+  overflow: hidden;
+  transition: transform 0.5s var(--ease-smooth), box-shadow 0.5s var(--ease-smooth), border-color 0.5s var(--ease-smooth);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 32px 20px 28px;
+  text-align: center;
+}
+
+.card:hover {
+  transform: translateY(-6px);
+  box-shadow: 0 24px 64px rgba(0, 0, 0, 0.5), 0 0 40px rgba(201, 168, 76, 0.08);
+  border-color: var(--color-gold);
+}
+
+.bottleWrap {
+  position: relative;
+  width: 100px;
+  height: 260px;
+  display: flex;
+  align-items: flex-end;
+  justify-content: center;
+  margin-bottom: 20px;
+}
+
+.bottle {
+  position: relative;
+  z-index: 1;
+  object-fit: contain;
+  object-position: bottom;
+  filter: drop-shadow(0 8px 20px rgba(0, 0, 0, 0.4));
+  transition: transform 0.5s var(--ease-smooth), filter 0.5s var(--ease-smooth);
+}
+
+.card:hover .bottle {
+  transform: translateY(-8px) scale(1.03);
+  filter: drop-shadow(0 16px 36px rgba(0, 0, 0, 0.6)) drop-shadow(0 0 16px rgba(201, 168, 76, 0.12));
+}
+
+.bottleGlow {
+  position: absolute;
+  bottom: -16px;
+  left: 50%;
+  transform: translateX(-50%);
+  width: 60px;
+  height: 30px;
+  background: radial-gradient(ellipse, rgba(201, 168, 76, 0.15), transparent);
+  filter: blur(8px);
+  opacity: 0;
+  transition: opacity 0.5s var(--ease-smooth);
+}
+
+.card:hover .bottleGlow {
+  opacity: 1;
+}
+
+.content {
+  width: 100%;
+}
+
+.award {
+  display: inline-block;
+  font-family: var(--font-body);
+  font-size: 0.55rem;
+  font-weight: 600;
+  text-transform: uppercase;
+  letter-spacing: 0.15em;
+  color: var(--color-wine-light);
+  background: rgba(107, 30, 46, 0.2);
+  padding: 3px 8px;
+  margin-bottom: 8px;
+}
+
+.score {
+  display: inline-block;
+  font-family: var(--font-data);
+  font-size: 0.7rem;
+  color: var(--color-gold);
+  margin-bottom: 8px;
+}
+
+.name {
+  font-family: var(--font-display);
+  font-size: 1.05rem;
+  font-weight: 700;
+  font-style: italic;
+  color: var(--color-cream);
+  margin-bottom: 4px;
+  line-height: 1.2;
+}
+
+.varietals {
+  font-family: var(--font-body);
+  font-size: 0.6rem;
+  font-weight: 300;
+  text-transform: uppercase;
+  letter-spacing: 0.15em;
+  color: var(--color-muted);
+  margin-bottom: 10px;
+}
+
+.description {
+  font-family: var(--font-body);
+  font-size: 0.78rem;
+  font-weight: 300;
+  color: var(--color-muted);
+  line-height: 1.5;
+}

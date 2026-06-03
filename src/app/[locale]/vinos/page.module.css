@@ -1,0 +1,237 @@
+/* Intro */
+.intro {
+  padding: clamp(80px, 10vw, 120px) 0;
+}
+
+.container {
+  max-width: 1400px;
+  margin: 0 auto;
+  padding: 0 clamp(24px, 4vw, 60px);
+}
+
+.containerSmall {
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 0 clamp(24px, 4vw, 60px);
+}
+
+.introGrid {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 80px;
+  align-items: center;
+}
+
+.introImage {
+  position: relative;
+  height: 400px;
+  overflow: hidden;
+}
+
+.image {
+  object-fit: cover;
+}
+
+.eyebrow {
+  display: inline-block;
+  font-family: var(--font-body);
+  font-size: 0.7rem;
+  font-weight: 400;
+  text-transform: uppercase;
+  letter-spacing: 0.3em;
+  color: var(--color-gold);
+  margin-bottom: 16px;
+}
+
+.introTitle {
+  font-family: var(--font-display);
+  font-size: clamp(2rem, 4vw, 3.5rem);
+  font-weight: 700;
+  font-style: italic;
+  color: var(--color-cream);
+  margin-bottom: 24px;
+}
+
+.introTitle em {
+  color: var(--color-gold);
+}
+
+.introText {
+  font-family: var(--font-body);
+  font-size: 1rem;
+  font-weight: 300;
+  color: var(--color-muted);
+  line-height: 1.8;
+}
+
+/* Línea Principal */
+.mainLine {
+  padding: clamp(60px, 8vw, 100px) 0 clamp(40px, 6vw, 60px);
+}
+
+.lineHeader {
+  margin-bottom: 48px;
+}
+
+.lineTitle {
+  font-family: var(--font-display);
+  font-size: clamp(2rem, 4vw, 3.5rem);
+  font-weight: 700;
+  font-style: italic;
+  color: var(--color-cream);
+}
+
+.lineTitle em {
+  color: var(--color-gold);
+}
+
+/* Sub-líneas */
+.subLine {
+  margin-bottom: clamp(48px, 6vw, 80px);
+  padding-bottom: clamp(48px, 6vw, 80px);
+  border-bottom: 1px solid var(--color-gold-border);
+}
+
+.subLine:last-child {
+  border-bottom: none;
+  margin-bottom: 0;
+  padding-bottom: 0;
+}
+
+.subLineHeader {
+  display: flex;
+  align-items: baseline;
+  gap: 16px;
+  margin-bottom: 32px;
+}
+
+.subLineTitle {
+  font-family: var(--font-display);
+  font-size: clamp(1.4rem, 2.5vw, 2rem);
+  font-weight: 700;
+  font-style: italic;
+  color: var(--color-gold);
+}
+
+.wineCount {
+  font-family: var(--font-body);
+  font-size: 0.7rem;
+  font-weight: 300;
+  text-transform: uppercase;
+  letter-spacing: 0.15em;
+  color: var(--color-muted);
+}
+
+/* Wine Grid */
+.wineGrid {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 16px;
+}
+
+/* Edición Especial */
+.specialLine {
+  background: var(--color-surface);
+  padding: clamp(60px, 8vw, 100px) 0;
+}
+
+/* CTA */
+.ctaSection {
+  padding: clamp(60px, 8vw, 100px) 0;
+}
+
+.ctaCard {
+  text-align: center;
+  padding: 56px 32px;
+  border: 1px solid var(--color-gold-border);
+  background: linear-gradient(135deg, var(--color-surface) 0%, var(--color-wine) 200%);
+}
+
+.ctaTitle {
+  font-family: var(--font-display);
+  font-size: clamp(1.8rem, 3vw, 2.5rem);
+  font-weight: 700;
+  font-style: italic;
+  color: var(--color-cream);
+  margin-bottom: 12px;
+}
+
+.ctaTitle em {
+  color: var(--color-gold-light);
+}
+
+.ctaText {
+  font-family: var(--font-body);
+  font-size: 1rem;
+  font-weight: 300;
+  color: rgba(245, 240, 232, 0.8);
+  margin-bottom: 28px;
+  max-width: 500px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.cta {
+  display: inline-flex;
+  align-items: center;
+  gap: 8px;
+  font-family: var(--font-body);
+  font-size: 0.75rem;
+  font-weight: 600;
+  text-transform: uppercase;
+  letter-spacing: 0.2em;
+  color: #0a0704;
+  background: var(--color-gold);
+  padding: 16px 40px;
+  text-decoration: none;
+  transition: background-color 0.3s var(--ease-smooth), transform 0.3s var(--ease-smooth);
+}
+
+.cta:hover {
+  background: var(--color-gold-light);
+  transform: translateY(-2px);
+}
+
+.cta svg {
+  transition: transform 0.3s var(--ease-smooth);
+}
+
+.cta:hover svg {
+  transform: translateX(3px);
+}
+
+/* Responsive */
+@media (max-width: 1200px) {
+  .wineGrid {
+    grid-template-columns: repeat(3, 1fr);
+  }
+}
+
+@media (max-width: 1024px) {
+  .wineGrid {
+    grid-template-columns: repeat(3, 1fr);
+  }
+}
+
+@media (max-width: 768px) {
+  .wineGrid {
+    grid-template-columns: repeat(2, 1fr);
+    gap: 10px;
+  }
+
+  .introGrid {
+    grid-template-columns: 1fr;
+    gap: 40px;
+  }
+
+  .subLineHeader {
+    flex-direction: column;
+    gap: 4px;
+  }
+}
+
+@media (max-width: 480px) {
+  .wineGrid {
+    grid-template-columns: 1fr;
+  }
+}

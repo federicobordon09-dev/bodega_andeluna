@@ -1,0 +1,120 @@
+.section {
+  padding: clamp(80px, 10vw, 120px) 0;
+}
+
+.container {
+  max-width: 1400px;
+  margin: 0 auto;
+  padding: 0 clamp(24px, 4vw, 60px);
+}
+
+.grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 80px;
+}
+
+.eyebrow {
+  display: inline-block;
+  font-family: var(--font-body);
+  font-size: 0.7rem;
+  font-weight: 400;
+  text-transform: uppercase;
+  letter-spacing: 0.3em;
+  color: var(--color-gold);
+  margin-bottom: 16px;
+}
+
+.sectionTitle {
+  font-family: var(--font-display);
+  font-size: clamp(2rem, 4vw, 3.5rem);
+  font-weight: 700;
+  font-style: italic;
+  color: var(--color-cream);
+  margin-bottom: 40px;
+  line-height: 1.05;
+}
+
+/* Info */
+.infoSide {
+  padding-left: 40px;
+  border-left: 1px solid var(--color-gold-border);
+}
+
+.infoGroup {
+  margin-bottom: 28px;
+}
+
+.infoLabel {
+  font-family: var(--font-body);
+  font-size: 0.65rem;
+  font-weight: 600;
+  text-transform: uppercase;
+  letter-spacing: 0.2em;
+  color: var(--color-gold);
+  margin-bottom: 8px;
+}
+
+.infoLink {
+  font-family: var(--font-body);
+  font-size: 0.95rem;
+  font-weight: 300;
+  color: var(--color-muted);
+  text-decoration: none;
+  transition: color 0.3s var(--ease-smooth);
+  display: block;
+}
+
+.infoLink:hover {
+  color: var(--color-cream);
+}
+
+.infoText {
+  font-family: var(--font-body);
+  font-size: 0.95rem;
+  font-weight: 300;
+  color: var(--color-muted);
+}
+
+.socialLinks {
+  display: flex;
+  gap: 20px;
+}
+
+.socialLink {
+  font-family: var(--font-body);
+  font-size: 0.85rem;
+  font-weight: 400;
+  color: var(--color-muted);
+  text-decoration: none;
+  transition: color 0.3s var(--ease-smooth);
+}
+
+.socialLink:hover {
+  color: var(--color-gold);
+}
+
+/* Map */
+.mapSection {
+  padding: 0 0 clamp(80px, 10vw, 120px);
+}
+
+.mapContainer {
+  max-width: 1400px;
+  margin: 0 auto;
+  overflow: hidden;
+}
+
+@media (max-width: 768px) {
+  .grid {
+    grid-template-columns: 1fr;
+    gap: 60px;
+  }
+
+  .infoSide {
+    padding-left: 0;
+    border-left: none;
+    border-top: 1px solid var(--color-gold-border);
+    padding-top: 40px;
+  }
+}

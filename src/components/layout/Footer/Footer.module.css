@@ -1,0 +1,151 @@
+.footer {
+  background: var(--color-surface);
+  border-top: 1px solid var(--color-gold-border);
+}
+
+.container {
+  max-width: 1400px;
+  margin: 0 auto;
+  padding: 80px clamp(24px, 4vw, 60px) 40px;
+}
+
+.grid {
+  display: grid;
+  grid-template-columns: 1.5fr 1fr 1fr 1fr;
+  gap: 60px;
+}
+
+.logo {
+  font-family: var(--font-display);
+  font-size: 2rem;
+  font-weight: 700;
+  font-style: italic;
+  color: var(--color-gold);
+  margin-bottom: 16px;
+}
+
+.tagline {
+  font-family: var(--font-body);
+  font-size: 0.9rem;
+  font-weight: 300;
+  color: var(--color-muted);
+  line-height: 1.6;
+  margin-bottom: 24px;
+}
+
+.social {
+  display: flex;
+  gap: 24px;
+}
+
+.socialLink {
+  font-family: var(--font-body);
+  font-size: 0.8rem;
+  font-weight: 400;
+  text-transform: uppercase;
+  letter-spacing: 0.15em;
+  color: var(--color-cream);
+  text-decoration: none;
+  transition: color 0.3s var(--ease-smooth);
+}
+
+.socialLink:hover {
+  color: var(--color-gold);
+}
+
+.colTitle {
+  font-family: var(--font-body);
+  font-size: 0.75rem;
+  font-weight: 600;
+  text-transform: uppercase;
+  letter-spacing: 0.2em;
+  color: var(--color-gold);
+  margin-bottom: 24px;
+}
+
+.colLinks {
+  list-style: none;
+  display: flex;
+  flex-direction: column;
+  gap: 14px;
+}
+
+.colLink {
+  font-family: var(--font-body);
+  font-size: 0.9rem;
+  font-weight: 300;
+  color: var(--color-muted);
+  text-decoration: none;
+  transition: color 0.3s var(--ease-smooth);
+}
+
+.colLink:hover {
+  color: var(--color-cream);
+}
+
+.contactItem {
+  font-family: var(--font-body);
+  font-size: 0.85rem;
+  font-weight: 300;
+  color: var(--color-muted);
+  line-height: 1.6;
+}
+
+.contactLabel {
+  display: block;
+  font-size: 0.7rem;
+  font-weight: 600;
+  text-transform: uppercase;
+  letter-spacing: 0.15em;
+  color: var(--color-cream);
+  margin-bottom: 2px;
+}
+
+.contactLink {
+  color: var(--color-muted);
+  text-decoration: none;
+  transition: color 0.3s var(--ease-smooth);
+}
+
+.contactLink:hover {
+  color: var(--color-gold);
+}
+
+.divider {
+  height: 1px;
+  background: var(--color-gold-border);
+  margin: 48px 0 24px;
+}
+
+.bottom {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.copy {
+  font-family: var(--font-body);
+  font-size: 0.75rem;
+  font-weight: 300;
+  color: var(--color-muted-2);
+}
+
+.credit {
+  font-family: var(--font-body);
+  font-size: 0.75rem;
+  font-weight: 300;
+  color: var(--color-muted-2);
+}
+
+@media (max-width: 768px) {
+  .grid {
+    grid-template-columns: 1fr;
+    gap: 40px;
+  }
+
+  .bottom {
+    flex-direction: column;
+    gap: 8px;
+    text-align: center;
+  }
+}

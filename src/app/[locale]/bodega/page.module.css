@@ -1,0 +1,220 @@
+.container {
+  max-width: 1400px;
+  margin: 0 auto;
+  padding: 0 clamp(24px, 4vw, 60px);
+}
+
+.containerSmall {
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 0 clamp(24px, 4vw, 60px);
+}
+
+.eyebrow {
+  display: inline-block;
+  font-family: var(--font-body);
+  font-size: 0.7rem;
+  font-weight: 400;
+  text-transform: uppercase;
+  letter-spacing: 0.3em;
+  color: var(--color-gold);
+  margin-bottom: 16px;
+}
+
+.sectionTitle {
+  font-family: var(--font-display);
+  font-size: clamp(2rem, 4vw, 3.5rem);
+  font-weight: 700;
+  font-style: italic;
+  color: var(--color-cream);
+  margin-bottom: 48px;
+}
+
+.sectionTitle em {
+  color: var(--color-gold);
+}
+
+.text {
+  font-family: var(--font-body);
+  font-size: 1rem;
+  font-weight: 300;
+  color: var(--color-muted);
+  line-height: 1.8;
+  margin-bottom: 16px;
+}
+
+/* Terroir */
+.terroir {
+  padding: clamp(80px, 10vw, 120px) 0;
+}
+
+.terroirGrid {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 80px;
+  align-items: center;
+}
+
+.terroirImage {
+  position: relative;
+  height: 450px;
+  overflow: hidden;
+}
+
+/* Philosophy */
+.philosophy {
+  background: var(--color-surface);
+  padding: clamp(80px, 10vw, 120px) 0;
+}
+
+.philosophyGrid {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 80px;
+  align-items: center;
+}
+
+.philosophyImage {
+  position: relative;
+  height: 450px;
+  overflow: hidden;
+}
+
+/* Architecture */
+.architecture {
+  padding: clamp(80px, 10vw, 120px) 0;
+}
+
+.archGrid {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 80px;
+  align-items: center;
+}
+
+.archImage {
+  position: relative;
+  height: 450px;
+  overflow: hidden;
+}
+
+/* Team */
+.team {
+  background: var(--color-surface);
+  padding: clamp(80px, 10vw, 120px) 0;
+}
+
+.teamGrid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 24px;
+}
+
+.teamImage {
+  position: relative;
+  height: 350px;
+  overflow: hidden;
+}
+
+.image {
+  object-fit: cover;
+}
+
+/* ISO */
+.iso {
+  padding: clamp(60px, 8vw, 100px) 0;
+}
+
+.isoCard {
+  display: flex;
+  align-items: center;
+  gap: 32px;
+  padding: 32px;
+  border: 1px solid var(--color-gold-border);
+  background: var(--color-surface);
+}
+
+.isoImage {
+  flex-shrink: 0;
+}
+
+.isoText {
+  font-family: var(--font-body);
+  font-size: 0.9rem;
+  font-weight: 300;
+  color: var(--color-muted);
+  line-height: 1.7;
+}
+
+/* Map */
+.mapSection {
+  padding: clamp(60px, 8vw, 100px) 0;
+}
+
+.mapWrapper {
+  overflow: hidden;
+  border: 1px solid var(--color-gold-border);
+  margin-bottom: 20px;
+}
+
+.mapInfo {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 16px;
+}
+
+.mapAddress {
+  font-family: var(--font-body);
+  font-size: 0.9rem;
+  font-weight: 300;
+  color: var(--color-muted);
+}
+
+.mapCta {
+  display: inline-flex;
+  align-items: center;
+  gap: 8px;
+  font-family: var(--font-body);
+  font-size: 0.7rem;
+  font-weight: 600;
+  text-transform: uppercase;
+  letter-spacing: 0.2em;
+  color: #0a0704;
+  background: var(--color-gold);
+  padding: 12px 28px;
+  text-decoration: none;
+  flex-shrink: 0;
+  transition: background-color 0.3s var(--ease-smooth), transform 0.3s var(--ease-smooth);
+}
+
+.mapCta:hover {
+  background: var(--color-gold-light);
+  transform: translateY(-2px);
+}
+
+.mapCta svg {
+  transition: transform 0.3s var(--ease-smooth);
+}
+
+.mapCta:hover svg {
+  transform: translateX(3px);
+}
+
+@media (max-width: 768px) {
+  .terroirGrid,
+  .philosophyGrid,
+  .archGrid {
+    grid-template-columns: 1fr;
+    gap: 40px;
+  }
+
+  .teamGrid {
+    grid-template-columns: 1fr;
+  }
+
+  .isoCard {
+    flex-direction: column;
+    text-align: center;
+  }
+}

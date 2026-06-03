@@ -1,0 +1,235 @@
+.container {
+  max-width: 1400px;
+  margin: 0 auto;
+  padding: 0 clamp(24px, 4vw, 60px);
+}
+
+.containerSmall {
+  max-width: 1000px;
+  margin: 0 auto;
+  padding: 0 clamp(24px, 4vw, 60px);
+}
+
+.eyebrow {
+  display: inline-block;
+  font-family: var(--font-body);
+  font-size: 0.7rem;
+  font-weight: 400;
+  text-transform: uppercase;
+  letter-spacing: 0.3em;
+  color: var(--color-gold);
+  margin-bottom: 16px;
+}
+
+.sectionTitle {
+  font-family: var(--font-display);
+  font-size: clamp(2rem, 4vw, 3.5rem);
+  font-weight: 700;
+  font-style: italic;
+  color: var(--color-cream);
+  margin-bottom: 48px;
+}
+
+.sectionTitle em {
+  color: var(--color-gold);
+}
+
+.text {
+  font-family: var(--font-body);
+  font-size: 1rem;
+  font-weight: 300;
+  color: var(--color-muted);
+  line-height: 1.8;
+  margin-bottom: 16px;
+}
+
+/* About */
+.about {
+  padding: clamp(80px, 10vw, 120px) 0;
+}
+
+.aboutGrid {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 80px;
+  align-items: center;
+}
+
+.aboutImage {
+  position: relative;
+  height: 450px;
+  overflow: hidden;
+}
+
+.image {
+  object-fit: cover;
+}
+
+/* Gallery */
+.gallery {
+  background: var(--color-surface);
+  padding: clamp(80px, 10vw, 120px) 0;
+}
+
+.galleryGrid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 4px;
+}
+
+.galleryItem {
+  position: relative;
+  aspect-ratio: 4/3;
+  overflow: hidden;
+}
+
+.galleryImage {
+  object-fit: cover;
+  transition: transform 0.6s var(--ease-smooth);
+}
+
+.galleryItem:hover .galleryImage {
+  transform: scale(1.05);
+}
+
+/* Amenities */
+.amenities {
+  padding: clamp(80px, 10vw, 120px) 0;
+}
+
+.amenitiesGrid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 16px;
+}
+
+.amenityCard {
+  padding: 28px 20px;
+  border: 1px solid var(--color-gold-border);
+  background: var(--color-surface);
+  text-align: center;
+  transition: border-color 0.3s var(--ease-smooth);
+}
+
+.amenityCard:hover {
+  border-color: var(--color-gold);
+}
+
+.amenityLabel {
+  font-family: var(--font-body);
+  font-size: 0.8rem;
+  font-weight: 400;
+  text-transform: uppercase;
+  letter-spacing: 0.15em;
+  color: var(--color-cream);
+}
+
+/* Rating */
+.rating {
+  background: var(--color-surface);
+  padding: clamp(60px, 8vw, 100px) 0;
+}
+
+.ratingCard {
+  text-align: center;
+  padding: 48px;
+}
+
+.ratingNumber {
+  font-family: var(--font-data);
+  font-size: clamp(60px, 8vw, 100px);
+  font-weight: 700;
+  color: var(--color-gold);
+  line-height: 1;
+}
+
+.ratingOutOf {
+  font-family: var(--font-body);
+  font-size: clamp(1.5rem, 2vw, 2rem);
+  font-weight: 300;
+  color: var(--color-muted);
+  margin-left: 8px;
+}
+
+.ratingText {
+  font-family: var(--font-body);
+  font-size: 0.85rem;
+  font-weight: 400;
+  text-transform: uppercase;
+  letter-spacing: 0.2em;
+  color: var(--color-muted);
+  margin-top: 16px;
+}
+
+/* CTA */
+.ctaSection {
+  padding: clamp(60px, 8vw, 100px) 0;
+}
+
+.ctaCard {
+  text-align: center;
+  padding: 48px 32px;
+  border: 1px solid var(--color-gold-border);
+  background: var(--color-wine);
+}
+
+.ctaTitle {
+  font-family: var(--font-display);
+  font-size: clamp(1.8rem, 3vw, 2.5rem);
+  font-weight: 700;
+  font-style: italic;
+  color: var(--color-cream);
+  margin-bottom: 12px;
+}
+
+.ctaText {
+  font-family: var(--font-body);
+  font-size: 1rem;
+  font-weight: 300;
+  color: rgba(245, 240, 232, 0.8);
+  margin-bottom: 28px;
+}
+
+.cta {
+  display: inline-flex;
+  align-items: center;
+  gap: 8px;
+  font-family: var(--font-body);
+  font-size: 0.75rem;
+  font-weight: 600;
+  text-transform: uppercase;
+  letter-spacing: 0.2em;
+  color: #0a0704;
+  background: var(--color-gold);
+  padding: 16px 40px;
+  text-decoration: none;
+  transition: background-color 0.3s var(--ease-smooth), transform 0.3s var(--ease-smooth);
+}
+
+.cta:hover {
+  background: var(--color-gold-light);
+  transform: translateY(-2px);
+}
+
+.cta svg {
+  transition: transform 0.3s var(--ease-smooth);
+}
+
+.cta:hover svg {
+  transform: translateX(3px);
+}
+
+@media (max-width: 768px) {
+  .aboutGrid {
+    grid-template-columns: 1fr;
+    gap: 40px;
+  }
+
+  .galleryGrid {
+    grid-template-columns: repeat(2, 1fr);
+  }
+
+  .amenitiesGrid {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
