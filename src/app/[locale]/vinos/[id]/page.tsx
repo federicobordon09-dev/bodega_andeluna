@@ -6,6 +6,7 @@ import Image from 'next/image'
 import { Link } from '@/i18n/navigation'
 import AnimatedSection from '@/components/ui/AnimatedSection/AnimatedSection'
 import { findWineById } from '@/data/wines'
+import type { WineScore } from '@/types/wine'
 import styles from './page.module.css'
 
 export default function WineDetailPage() {
@@ -19,7 +20,7 @@ export default function WineDetailPage() {
       <section className={styles.notFound}>
         <div className={styles.container}>
           <h1 className={styles.notFoundTitle}>{t('wines.title')}</h1>
-          <p className={styles.notFoundText}>Vino no encontrado.</p>
+          <p className={styles.notFoundText}>{t('wineDetails.notFound')}</p>
           <Link href="/vinos" className={styles.backLink}>
             ← {t('wines.viewAll')}
           </Link>
@@ -28,8 +29,25 @@ export default function WineDetailPage() {
     )
   }
 
-  const { wine, lineId, subLineId } = result
+  const { wine, lineId } = result
   const lineName = lineId === 'central' ? t('wines.lineCentral') : t('wines.especial')
+
+  // Get translations from wineDetails
+  let details: Record<string, unknown> = {}
+  try {
+    details = t.raw(`wineDetails.${id}`) as Record<string, unknown>
+  } catch {
+    // fallback to wine data from wines.ts
+  }
+
+  const philosophy = (details.philosophy as string) || wine.philosophy || ''
+  const vineyard = (details.vineyard as string) || wine.vineyard || ''
+  const vinification = (details.vinification as string) || wine.vinification || ''
+  const tastingNotes = (details.tastingNotes as string) || wine.tastingNotes || ''
+  const scores = (details.scores as WineScore[]) || wine.scores || []
+  const winemaker = (details.winemaker as string) || wine.winemaker || ''
+  const serveTemp = (details.serveTemp as string) || wine.serveTemp || ''
+  const aging = (details.aging as string) || wine.aging || ''
 
   return (
     <>
@@ -86,8 +104,8 @@ export default function WineDetailPage() {
                 </div>
                 <h2 className={styles.infoTitle}>{wine.name}</h2>
 
-                {wine.philosophy && (
-                  <p className={styles.philosophy}>{wine.philosophy}</p>
+                {philosophy && (
+                  <p className={styles.philosophy}>{philosophy}</p>
                 )}
 
                 <div className={styles.actions}>
@@ -119,86 +137,64 @@ export default function WineDetailPage() {
       <section className={styles.sections}>
         <div className={styles.container}>
 
-          {/* Vineyard */}
-          {wine.vineyard && (
+          {vineyard && (
             <AnimatedSection>
               <div className={styles.sectionBlock}>
-                <span className={styles.sectionEyebrow}>Viñedos</span>
-                <h3 className={styles.sectionTitle}>Nuestros Viñedos</h3>
-                <p className={styles.sectionText}>{wine.vineyard}</p>
+                <span className={styles.sectionEyebrow}>{t('wineDetails.vineyard')}</span>
+                <h3 className={styles.sectionTitle}>{t('wineDetails.vineyardTitle')}</h3>
+                <p className={styles.sectionText}>{vineyard}</p>
               </div>
             </AnimatedSection>
           )}
 
-          {/* Vinification */}
-          {wine.vinification && (
+          {vinification && (
             <AnimatedSection>
               <div className={styles.sectionBlock}>
-                <span className={styles.sectionEyebrow}>Vinificación</span>
-                <h3 className={styles.sectionTitle}>Vinificación</h3>
-                <p className={styles.sectionText}>{wine.vinification}</p>
+                <span className={styles.sectionEyebrow}>{t('wineDetails.vinification')}</span>
+                <h3 className={styles.sectionTitle}>{t('wineDetails.vinificationTitle')}</h3>
+                <p className={styles.sectionText}>{vinification}</p>
               </div>
             </AnimatedSection>
           )}
 
-          {/* Tasting Notes */}
-          {wine.tastingNotes && (
+          {tastingNotes && (
             <AnimatedSection>
               <div className={styles.sectionBlock}>
-                <span className={styles.sectionEyebrow}>Notas de Cata</span>
-                <h3 className={styles.sectionTitle}>Notas de Cata</h3>
-                <p className={styles.sectionText}>{wine.tastingNotes}</p>
-                {wine.serveTemp && (
-                  <p className={styles.serveTemp}>Servir a {wine.serveTemp}. {wine.aging || ''}</p>
+                <span className={styles.sectionEyebrow}>{t('wineDetails.tastingNotes')}</span>
+                <h3 className={styles.sectionTitle}>{t('wineDetails.tastingNotesTitle')}</h3>
+                <p className={styles.sectionText}>{tastingNotes}</p>
+                {serveTemp && (
+                  <p className={styles.serveTemp}>{t('wineDetails.serveAt')} {serveTemp}. {aging}</p>
                 )}
               </div>
             </AnimatedSection>
           )}
 
-          {/* Winemaker */}
-          {wine.winemaker && (
+          {winemaker && (
             <AnimatedSection>
               <div className={styles.sectionBlock}>
-                <span className={styles.sectionEyebrow}>Enólogo jefe</span>
-                <h3 className={styles.sectionTitle}>Enólogo jefe</h3>
-                <p className={styles.sectionText}>{wine.winemaker}</p>
+                <span className={styles.sectionEyebrow}>{t('wineDetails.winemaker')}</span>
+                <h3 className={styles.sectionTitle}>{t('wineDetails.winemakerTitle')}</h3>
+                <p className={styles.sectionText}>{winemaker}</p>
               </div>
             </AnimatedSection>
           )}
 
-          {/* Scores */}
-          {wine.scores && wine.scores.length > 0 && (
+          {scores.length > 0 && (
             <AnimatedSection>
               <div className={styles.sectionBlock}>
-                <span className={styles.sectionEyebrow}>Puntajes</span>
-                <h3 className={styles.sectionTitle}>Puntajes</h3>
+                <span className={styles.sectionEyebrow}>{t('wineDetails.scores')}</span>
+                <h3 className={styles.sectionTitle}>{t('wineDetails.scoresTitle')}</h3>
                 <div className={styles.scoresList}>
-                  {wine.scores.map((s, i) => (
+                  {scores.map((s, i) => (
                     <div key={i} className={styles.scoreRow}>
                       <span className={styles.scoreCritic}>{s.critic}</span>
                       <span className={styles.scoreDivider}>|</span>
-                      <span className={styles.scoreVintage}>Cosecha {s.vintage}</span>
+                      <span className={styles.scoreVintage}>{t('wineDetails.vintage')} {s.vintage}</span>
                       <span className={styles.scoreDivider}>|</span>
-                      <span className={styles.scoreValue}>{s.score} pts.</span>
+                      <span className={styles.scoreValue}>{s.score} {t('wineDetails.pts')}</span>
                     </div>
                   ))}
-                </div>
-              </div>
-            </AnimatedSection>
-          )}
-
-          {/* Single score fallback */}
-          {!wine.scores && wine.score && (
-            <AnimatedSection>
-              <div className={styles.sectionBlock}>
-                <span className={styles.sectionEyebrow}>Puntajes</span>
-                <h3 className={styles.sectionTitle}>Puntajes</h3>
-                <div className={styles.scoresList}>
-                  <div className={styles.scoreRow}>
-                    <span className={styles.scoreCritic}>{wine.scoreSource}</span>
-                    <span className={styles.scoreDivider}>|</span>
-                    <span className={styles.scoreValue}>{wine.score} pts.</span>
-                  </div>
                 </div>
               </div>
             </AnimatedSection>

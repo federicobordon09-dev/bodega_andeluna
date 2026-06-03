@@ -410,6 +410,384 @@
       "wineNot": "Etiqueta irreverente. Malbec jovem, frutado, divertido. Para desfrutar sem formalidades.",
       "semillon": "Sémillon elegante. Notas de cítricos, ervas, mineralidade. Frescura extrema."
     },
+    "wineDetails": {
+      "vineyard": "Vinhedos",
+      "vineyardTitle": "Nossos Vinhedos",
+      "vinification": "Vinificação",
+      "vinificationTitle": "Vinificação",
+      "tastingNotes": "Notas de Degustação",
+      "tastingNotesTitle": "Notas de Degustação",
+      "winemaker": "Enólogo chefe",
+      "winemakerTitle": "Enólogo chefe",
+      "scores": "Pontuações",
+      "scoresTitle": "Pontuações",
+      "vintage": "Safra",
+      "pts": "pts",
+      "serveAt": "Servir a",
+      "aptForGuard": "Apto para guarda",
+      "consumeYoung": "Consumir jovem",
+      "notFound": "Vinho não encontrado.",
+      "pasionado-malbec": {
+        "philosophy": "Honramos com paixão o solo, a altitude, os Andes e a Lua. Os lugares escolhidos, descobertos por sua identidade única, pequenas parcelas dão a estes vinhos personalidade, sofisticação e elegância. Este vinho representa um modo poético de ver a vida.",
+        "vineyard": "Gualtallary, Tupungato, Mendoza. A mais de 1.300 m.s.n.m.",
+        "vinification": "Colheita manual durante o amanhecer, no mês de abril, no momento de plena maturação fenólica. Seleção de bagas manual. Maceração pré-fermentativa a frio. Este vinho repousou em barris de carvalho francês novos (50%), de 1º uso (25%) e de 2º uso (25%) por um período de 12 meses, depois engarrafado por no mínimo 8 meses.",
+        "tastingNotes": "Cor profunda com tons violetas intensos. De alta complexidade; aromas de frutas vermelhas e flores, destacando as violetas típicas da variedade. Na boca percebem-se taninos sofisticados, com uma personalidade marcante. Final prolongado e extremamente agradável.",
+        "scores": [
+          {"critic": "Descorchados", "vintage": "2017", "score": 95},
+          {"critic": "Tim Atkin", "vintage": "2016", "score": 93},
+          {"critic": "James Suckling", "vintage": "2016", "score": 91},
+          {"critic": "Tim Atkin", "vintage": "2015", "score": 93},
+          {"critic": "James Suckling", "vintage": "2015", "score": 90},
+          {"critic": "Tim Atkin", "vintage": "2014", "score": 94},
+          {"critic": "James Suckling", "vintage": "2014", "score": 93},
+          {"critic": "Descorchados", "vintage": "2014", "score": 92},
+          {"critic": "Tim Atkin", "vintage": "2013", "score": 92}
+        ],
+        "winemaker": "Jimena Lopez",
+        "serveTemp": "16 °C",
+        "aging": "Apto para guarda"
+      },
+      "pasionado-cf": {
+        "philosophy": "Uma expressão pura do Cabernet Franc de Gualtallary. Este vinho representa a elegância e a complexidade que apenas a alta montanha pode oferecer.",
+        "vineyard": "Gualtallary, Tupungato, Mendoza. A mais de 1.300 m.s.n.m.",
+        "vinification": "Colheita manual ao amanhecer. Seleção exaustiva de bagas. Fermentação em tanques de aço inoxidável. Repouso em barris de carvalho francês novos por 14 meses.",
+        "tastingNotes": "Cor rubi intensa com reflexos violáceos. Nariz complexo com notas de frutas vermelhas maduras, especiarias, pimenta preta e um toque mineral. Na boca é elegante, com taninos finos e sedosos, boa acidez e um final longo e persistente.",
+        "scores": [
+          {"critic": "Tim Atkin", "vintage": "2022", "score": 96},
+          {"critic": "James Suckling", "vintage": "2022", "score": 94},
+          {"critic": "Tim Atkin", "vintage": "2021", "score": 95}
+        ],
+        "winemaker": "Jimena Lopez",
+        "serveTemp": "16-18 °C",
+        "aging": "Apto para guarda de 5-8 anos"
+      },
+      "pasionado-cuatro-cepas": {
+        "philosophy": "Quatro variedades, uma paixão. Um blend que representa a complexidade e a elegância de Gualtallary.",
+        "vineyard": "Gualtallary, Tupungato, Mendoza. A mais de 1.300 m.s.n.m.",
+        "vinification": "Colheita manual. Fermentação separada por variedade. Repouso em barris de carvalho francês por 12 meses.",
+        "tastingNotes": "Cor vermelha intensa com reflexos violáceos. Nariz complexo com notas de frutas vermelhas, especiarias e um toque herbal. Na boca é elegante, com taninos maduros, boa estrutura e um final prolongado.",
+        "scores": [
+          {"critic": "Tim Atkin", "vintage": "2022", "score": 94},
+          {"critic": "James Suckling", "vintage": "2022", "score": 93}
+        ],
+        "winemaker": "Jimena Lopez",
+        "serveTemp": "16-18 °C",
+        "aging": "Apto para guarda de 5-7 anos"
+      },
+      "altitud-malbec": {
+        "philosophy": "Expressão pura da altitude. Um Malbec que reflete a frescura e a mineralidade de Gualtallary.",
+        "vineyard": "Gualtallary, Tupungato, Mendoza. A mais de 1.300 m.s.n.m.",
+        "vinification": "Colheita manual ao amanhecer. Fermentação em tanques de aço inoxidável. Repouso em barris de carvalho francês por 10 meses.",
+        "tastingNotes": "Cor vermelho-violeta intensa. Nariz floral com notas de violetas, frutas vermelhas frescas e um toque mineral. Na boca é fresco, com taninos elegantes, boa acidez e um final mineral e persistente.",
+        "scores": [
+          {"critic": "Tim Atkin", "vintage": "2023", "score": 93},
+          {"critic": "James Suckling", "vintage": "2023", "score": 92},
+          {"critic": "Tim Atkin", "vintage": "2022", "score": 92}
+        ],
+        "winemaker": "Jimena Lopez",
+        "serveTemp": "16 °C",
+        "aging": "Apto para guarda de 3-5 anos"
+      },
+      "altitud-merlot": {
+        "philosophy": "Um Merlot que desafia as expectativas da variedade, com a elegância que apenas a alta montanha pode dar.",
+        "vineyard": "Gualtallary, Tupungato, Mendoza. A mais de 1.300 m.s.n.m.",
+        "vinification": "Colheita manual. Fermentação em tanques de aço inoxidável. Repouso em barris de carvalho francês por 10 meses.",
+        "tastingNotes": "Cor rubi com reflexos violáceos. Nariz de frutas vermelhas maduras, ameixa, chocolate e um toque apimentado. Na boca é sedoso, com taninos redondos, boa acidez e um final agradável.",
+        "scores": [
+          {"critic": "Tim Atkin", "vintage": "2023", "score": 91},
+          {"critic": "James Suckling", "vintage": "2023", "score": 90}
+        ],
+        "winemaker": "Jimena Lopez",
+        "serveTemp": "16 °C",
+        "aging": "Apto para guarda de 3-5 anos"
+      },
+      "altitud-cab-sauv": {
+        "philosophy": "O poder do Cabernet Sauvignon de alta montanha. Um vinho de estrutura e elegância.",
+        "vineyard": "Gualtallary, Tupungato, Mendoza. A mais de 1.300 m.s.n.m.",
+        "vinification": "Colheita manual. Fermentação em tanques de aço inoxidável. Repouso em barris de carvalho francês por 12 meses.",
+        "tastingNotes": "Cor vermelha intensa com reflexos violáceos. Nariz de frutas negras, pimenta, cassís e um toque herbal. Na boca é potente, com taninos maduros, boa estrutura e um final longo.",
+        "scores": [
+          {"critic": "Tim Atkin", "vintage": "2022", "score": 93},
+          {"critic": "James Suckling", "vintage": "2022", "score": 91}
+        ],
+        "winemaker": "Jimena Lopez",
+        "serveTemp": "16-18 °C",
+        "aging": "Apto para guarda de 5-7 anos"
+      },
+      "altitud-pinot": {
+        "philosophy": "Um Pinot Noir que captura a delicadeza e a elegância da alta montanha.",
+        "vineyard": "Gualtallary, Tupungato, Mendoza. A mais de 1.300 m.s.n.m.",
+        "vinification": "Colheita manual. Fermentação em tanques de aço inoxidável. Repouso em barris de carvalho francês por 8 meses.",
+        "tastingNotes": "Cor rubi clara. Nariz delicado com notas de framboesa, cereja, flores e um toque terroso. Na boca é elegante, com taninos finos, boa acidez e um final fresco.",
+        "scores": [{"critic": "Tim Atkin", "vintage": "2023", "score": 92}],
+        "winemaker": "Jimena Lopez",
+        "serveTemp": "14-16 °C",
+        "aging": "Apto para guarda de 2-4 anos"
+      },
+      "altitud-chardonnay": {
+        "philosophy": "Um Chardonnay que reflete a frescura e a mineralidade de Gualtallary.",
+        "vineyard": "Gualtallary, Tupungato, Mendoza. A mais de 1.300 m.s.n.m.",
+        "vinification": "Colheita manual. Fermentação em tanques de aço inoxidável. Sem envelhecimento em madeira.",
+        "tastingNotes": "Amarelo pálido com reflexos esverdeados. Nariz cítrico com notas de limão, toranja, frutas tropicais e um toque mineral. Na boca é fresco, com boa acidez, notas cítricas e um final vibrante.",
+        "scores": [
+          {"critic": "Tim Atkin", "vintage": "2023", "score": 91},
+          {"critic": "James Suckling", "vintage": "2023", "score": 90}
+        ],
+        "winemaker": "Jimena Lopez",
+        "serveTemp": "8-10 °C",
+        "aging": "Consumir jovem"
+      },
+      "altitud-organic-malbec": {
+        "philosophy": "Um Malbec orgânico que representa nosso compromisso com a sustentabilidade e a pureza do terroir.",
+        "vineyard": "Gualtallary, Tupungato, Mendoza. A mais de 1.300 m.s.n.m. Viticultura orgânica certificada.",
+        "vinification": "Colheita manual. Fermentação com leveduras naturais. Repouso em barris de carvalho francês por 10 meses.",
+        "tastingNotes": "Cor vermelho-violeta intensa. Nariz floral com notas de violetas, frutas vermelhas frescas e um toque herbal. Na boca é fresco, com taninos elegantes, boa acidez e um final mineral.",
+        "scores": [{"critic": "Tim Atkin", "vintage": "2023", "score": 92}],
+        "winemaker": "Jimena Lopez",
+        "serveTemp": "16 °C",
+        "aging": "Apto para guarda de 3-5 anos"
+      },
+      "altitud-organic-cab-sauv": {
+        "philosophy": "Um Cabernet Sauvignon orgânico que combina poder e sustentabilidade.",
+        "vineyard": "Gualtallary, Tupungato, Mendoza. A mais de 1.300 m.s.n.m. Viticultura orgânica certificada.",
+        "vinification": "Colheita manual. Fermentação com leveduras naturais. Repouso em barris de carvalho francês por 12 meses.",
+        "tastingNotes": "Cor vermelha intensa com reflexos violáceos. Nariz de frutas negras, pimenta e um toque herbal. Na boca é potente, com taninos maduros, boa estrutura e um final longo.",
+        "scores": [{"critic": "Tim Atkin", "vintage": "2022", "score": 93}],
+        "winemaker": "Jimena Lopez",
+        "serveTemp": "16-18 °C",
+        "aging": "Apto para guarda de 5-7 anos"
+      },
+      "mil-malbec": {
+        "philosophy": "O vinho emblemático da linha 1300. Uma expressão pura da altitude e do terroir de Gualtallary.",
+        "vineyard": "Gualtallary, Tupungato, Mendoza. A mais de 1.300 m.s.n.m.",
+        "vinification": "Colheita manual ao amanhecer. Fermentação em tanques de aço inoxidável. Repouso em barris de carvalho francês por 12 meses.",
+        "tastingNotes": "Cor vermelha intensa com reflexos violáceos. Nariz de frutas vermelhas e negras maduras, especiarias e um toque mineral. Na boca é elegante, com taninos sedosos, boa acidez e um final persistente.",
+        "scores": [
+          {"critic": "Decanter", "vintage": "2022", "score": 95},
+          {"critic": "Tim Atkin", "vintage": "2022", "score": 93},
+          {"critic": "James Suckling", "vintage": "2022", "score": 92}
+        ],
+        "winemaker": "Jimena Lopez",
+        "serveTemp": "16 °C",
+        "aging": "Apto para guarda de 5-8 anos"
+      },
+      "mil-malbec-magnum": {
+        "philosophy": "O mesmo vinho que o 1300 Malbec, mas em formato magnum para uma evolução mais lenta e complexa.",
+        "vineyard": "Gualtallary, Tupungato, Mendoza. A mais de 1.300 m.s.n.m.",
+        "vinification": "Igual ao 1300 Malbec. Repouso em barris de carvalho francês por 12 meses.",
+        "tastingNotes": "Igual ao 1300 Malbec, com uma evolução mais complexa graças ao formato magnum.",
+        "scores": [{"critic": "Decanter", "vintage": "2022", "score": 95}],
+        "winemaker": "Jimena Lopez",
+        "serveTemp": "16 °C",
+        "aging": "Apto para guarda de 8-10 anos"
+      },
+      "mil-malbec-375": {
+        "philosophy": "O mesmo vinho que o 1300 Malbec, em formato pessoal para desfrutar sozinho ou em casal.",
+        "vineyard": "Gualtallary, Tupungato, Mendoza. A mais de 1.300 m.s.n.m.",
+        "vinification": "Igual ao 1300 Malbec.",
+        "tastingNotes": "Igual ao 1300 Malbec.",
+        "winemaker": "Jimena Lopez",
+        "serveTemp": "16 °C",
+        "aging": "Apto para guarda de 5-8 anos"
+      },
+      "mil-cab-sauv": {
+        "philosophy": "Um Cabernet Sauvignon que reflete a elegância e o poder de Gualtallary.",
+        "vineyard": "Gualtallary, Tupungato, Mendoza. A mais de 1.300 m.s.n.m.",
+        "vinification": "Colheita manual. Fermentação em tanques de aço inoxidável. Repouso em barris de carvalho francês por 12 meses.",
+        "tastingNotes": "Cor vermelha intensa. Nariz de frutas negras, pimenta e um toque balsâmico. Na boca é potente, com taninos maduros, boa estrutura e um final longo.",
+        "scores": [{"critic": "Tim Atkin", "vintage": "2022", "score": 93}],
+        "winemaker": "Jimena Lopez",
+        "serveTemp": "16-18 °C",
+        "aging": "Apto para guarda de 5-7 anos"
+      },
+      "mil-merlot": {
+        "philosophy": "Um Merlot que combina suavidade e caráter, com a elegância da alta montanha.",
+        "vineyard": "Gualtallary, Tupungato, Mendoza. A mais de 1.300 m.s.n.m.",
+        "vinification": "Colheita manual. Fermentação em tanques de aço inoxidável. Repouso em barris de carvalho francês por 10 meses.",
+        "tastingNotes": "Cor rubi. Nariz de ameixa, chocolate, frutas vermelhas maduras. Na boca é sedoso, com taninos redondos, boa acidez e um final agradável.",
+        "scores": [{"critic": "Tim Atkin", "vintage": "2023", "score": 91}],
+        "winemaker": "Jimena Lopez",
+        "serveTemp": "16 °C",
+        "aging": "Apto para guarda de 3-5 anos"
+      },
+      "mil-cab-franc": {
+        "philosophy": "Um Cabernet Franc que mostra a elegância e a complexidade da variedade em alta montanha.",
+        "vineyard": "Gualtallary, Tupungato, Mendoza. A mais de 1.300 m.s.n.m.",
+        "vinification": "Colheita manual. Fermentação em tanques de aço inoxidável. Repouso em barris de carvalho francês por 10 meses.",
+        "tastingNotes": "Cor rubi com reflexos violáceos. Nariz aromático com notas de especiarias, folhas, frutas vermelhas. Na boca é elegante, com taninos finos, boa acidez e um final persistente.",
+        "scores": [{"critic": "Tim Atkin", "vintage": "2023", "score": 92}],
+        "winemaker": "Jimena Lopez",
+        "serveTemp": "16 °C",
+        "aging": "Apto para guarda de 3-5 anos"
+      },
+      "mil-sauv-blanc": {
+        "philosophy": "Um Sauvignon Blanc que reflete a frescura e a vivacidade da alta montanha.",
+        "vineyard": "Gualtallary, Tupungato, Mendoza. A mais de 1.300 m.s.n.m.",
+        "vinification": "Colheita manual. Fermentação em tanques de aço inoxidável. Sem envelhecimento em madeira.",
+        "tastingNotes": "Amarelo pálido com reflexos esverdeados. Nariz cítrico com notas de limão, toranja, ervas e um toque mineral. Na boca é fresco, com boa acidez, notas cítricas e um final vibrante.",
+        "scores": [{"critic": "Tim Atkin", "vintage": "2023", "score": 91}],
+        "winemaker": "Jimena Lopez",
+        "serveTemp": "8-10 °C",
+        "aging": "Consumir jovem"
+      },
+      "mil-chardonnay": {
+        "philosophy": "Um Chardonnay que combina a frescura da montanha com a cremosidade da barrica.",
+        "vineyard": "Gualtallary, Tupungato, Mendoza. A mais de 1.300 m.s.n.m.",
+        "vinification": "Colheita manual. Fermentação parcial em barris de carvalho francês. Repouso sur lie por 6 meses.",
+        "tastingNotes": "Amarelo dourado. Nariz de fruta madura, manteiga, baunilha e notas de barrica. Na boca é cremoso, com boa acidez, notas de fruta e um final elegante.",
+        "scores": [{"critic": "Tim Atkin", "vintage": "2023", "score": 92}],
+        "winemaker": "Jimena Lopez",
+        "serveTemp": "10-12 °C",
+        "aging": "Apto para guarda de 2-4 anos"
+      },
+      "mil-torrontes": {
+        "philosophy": "Um Torrontés que representa a assinatura varietal do Vale do Uco.",
+        "vineyard": "Gualtallary, Tupungato, Mendoza. A mais de 1.300 m.s.n.m.",
+        "vinification": "Colheita manual. Fermentação em tanques de aço inoxidável. Sem envelhecimento em madeira.",
+        "tastingNotes": "Amarelo pálido. Nariz floral e exótico com notas de rosas, lychee, frutas tropicais e um toque mineral. Na boca é fresco, com boa acidez, notas florais e um final elegante.",
+        "scores": [{"critic": "Tim Atkin", "vintage": "2023", "score": 91}],
+        "winemaker": "Jimena Lopez",
+        "serveTemp": "8-10 °C",
+        "aging": "Consumir jovem"
+      },
+      "mil-torrontes-dulce": {
+        "philosophy": "Um vinho doce natural que combina o exotismo do Torrontés com a frescura da alta montanha.",
+        "vineyard": "Gualtallary, Tupungato, Mendoza. A mais de 1.300 m.s.n.m.",
+        "vinification": "Colheita manual. Fermentação interrompida para conservar açúcar residual. Sem envelhecimento em madeira.",
+        "tastingNotes": "Amarelo dourado. Nariz de frutas tropicais, mel, flores. Na boca é doce mas equilibrado, com boa acidez que compensa a doçura, e um final fresco.",
+        "winemaker": "Jimena Lopez",
+        "serveTemp": "6-8 °C",
+        "aging": "Consumir jovem"
+      },
+      "raices-malbec": {
+        "philosophy": "Um Malbec que honra as raízes e a tradição vinícola de Mendoza.",
+        "vineyard": "Gualtallary, Tupungato, Mendoza. A mais de 1.300 m.s.n.m.",
+        "vinification": "Colheita manual. Fermentação em tanques de aço inoxidável. Repouso em barris de carvalho francês por 8 meses.",
+        "tastingNotes": "Cor vermelha intensa. Nariz de frutas vermelhas maduras, especiarias, um toque terroso. Na boca é direto, com taninos maduros, boa acidez e um final honesto e varietal.",
+        "scores": [{"critic": "Tim Atkin", "vintage": "2023", "score": 90}],
+        "winemaker": "Jimena Lopez",
+        "serveTemp": "16 °C",
+        "aging": "Apto para guarda de 3-5 anos"
+      },
+      "raices-cab-sauv": {
+        "philosophy": "Um Cabernet Sauvignon que expressa a autenticidade do terroir de Gualtallary.",
+        "vineyard": "Gualtallary, Tupungato, Mendoza. A mais de 1.300 m.s.n.m.",
+        "vinification": "Colheita manual. Fermentação em tanques de aço inoxidável. Repouso em barris de carvalho francês por 8 meses.",
+        "tastingNotes": "Cor vermelha intensa. Nariz de frutas negras, pimenta, um toque herbal. Na boca é direto, com taninos maduros, boa estrutura e um final varietal.",
+        "scores": [{"critic": "Tim Atkin", "vintage": "2023", "score": 90}],
+        "winemaker": "Jimena Lopez",
+        "serveTemp": "16-18 °C",
+        "aging": "Apto para guarda de 3-5 anos"
+      },
+      "raices-chardonnay": {
+        "philosophy": "Um Chardonnay que mostra a mineralidade e a tensão da alta montanha.",
+        "vineyard": "Gualtallary, Tupungato, Mendoza. A mais de 1.300 m.s.n.m.",
+        "vinification": "Colheita manual. Fermentação em tanques de aço inoxidável. Sem envelhecimento em madeira.",
+        "tastingNotes": "Amarelo pálido. Nariz cítrico, mineral, com notas de limão e pedra molhada. Na boca é tenso, com boa acidez, mineralidade e um final fresco e persistente.",
+        "scores": [{"critic": "Tim Atkin", "vintage": "2023", "score": 90}],
+        "winemaker": "Jimena Lopez",
+        "serveTemp": "8-10 °C",
+        "aging": "Consumir jovem"
+      },
+      "emblema": {
+        "philosophy": "O vinho mais representativo da Andeluna. Um blend que combina o melhor de cada variedade em uma expressão única e elegante.",
+        "vineyard": "Gualtallary, Tupungato, Mendoza. A mais de 1.300 m.s.n.m.",
+        "vinification": "Colheita manual. Fermentação separada por variedade. Repouso em barris de carvalho francês novos por 18 meses.",
+        "tastingNotes": "Cor vermelha intensa com reflexos violáceos. Nariz complexo com notas de frutas negras, especiarias, violetas, um toque balsâmico. Na boca é elegante, com taninos finos e sedosos, boa estrutura, acidez vibrante e um final longo e persistente.",
+        "scores": [
+          {"critic": "Tim Atkin", "vintage": "2021", "score": 95},
+          {"critic": "James Suckling", "vintage": "2021", "score": 94}
+        ],
+        "winemaker": "Jimena Lopez",
+        "serveTemp": "16-18 °C",
+        "aging": "Apto para guarda de 8-12 anos"
+      },
+      "francs": {
+        "philosophy": "A expressão mais pura do Cabernet Franc de Gualtallary. Um vinho de parcela, único e irrepetível.",
+        "vineyard": "Gualtallary, Tupungato, Mendoza. Parcela específica a mais de 1.300 m.s.n.m.",
+        "vinification": "Colheita manual. Fermentação em tanques de aço inoxidável. Repouso em barris de carvalho francês novos por 16 meses.",
+        "tastingNotes": "Cor rubi intensa. Nariz complexo com notas de frutas vermelhas, especiarias, pimenta, violetas, um toque mineral. Na boca é elegante, com taninos finos e sedosos, acidez vibrante, mineralidade e um final longo e persistente.",
+        "scores": [
+          {"critic": "Tim Atkin", "vintage": "2022", "score": 96},
+          {"critic": "James Suckling", "vintage": "2022", "score": 95}
+        ],
+        "winemaker": "Jimena Lopez",
+        "serveTemp": "16-18 °C",
+        "aging": "Apto para guarda de 10-15 anos"
+      },
+      "blanc-de-franc": {
+        "philosophy": "Uma edição limitada que mostra a versatilidade do Cabernet Franc vinificado em branco.",
+        "vineyard": "Gualtallary, Tupungato, Mendoza. A mais de 1.300 m.s.n.m.",
+        "vinification": "Colheita manual. Prensagem suave. Fermentação em tanques de aço inoxidável. Sem envelhecimento em madeira.",
+        "tastingNotes": "Amarelo pálido com reflexos dourados. Nariz cítrico, mineral, com notas de limão, toranja e pedra molhada. Na boca é fresco, tenso, com boa acidez e um final mineral e elegante.",
+        "winemaker": "Jimena Lopez",
+        "serveTemp": "8-10 °C",
+        "aging": "Consumir jovem"
+      },
+      "torrontes": {
+        "philosophy": "Um Torrontés que representa a assinatura varietal mais emblemática da Argentina.",
+        "vineyard": "Gualtallary, Tupungato, Mendoza. A mais de 1.300 m.s.n.m.",
+        "vinification": "Colheita manual. Fermentação em tanques de aço inoxidável. Sem envelhecimento em madeira.",
+        "tastingNotes": "Amarelo pálido. Nariz floral e exótico com notas de rosas, jasmim, lychee, frutas tropicais. Na boca é fresco, com boa acidez, notas florais e um final elegante.",
+        "winemaker": "Jimena Lopez",
+        "serveTemp": "8-10 °C",
+        "aging": "Consumir jovem"
+      },
+      "rose": {
+        "philosophy": "Um rosé de autor que combina frescura e elegância.",
+        "vineyard": "Gualtallary, Tupungato, Mendoza. A mais de 1.300 m.s.n.m.",
+        "vinification": "Colheita manual. Prensagem suave. Fermentação em tanques de aço inoxidável. Sem envelhecimento em madeira.",
+        "tastingNotes": "Rosa pálido com reflexos dourados. Nariz de frutas vermelhas frescas, flores, um toque cítrico. Na boca é fresco, leve, com boa acidez e um final agradável.",
+        "winemaker": "Jimena Lopez",
+        "serveTemp": "8-10 °C",
+        "aging": "Consumir jovem"
+      },
+      "extra-brut": {
+        "philosophy": "Um espumante natural que combina a frescura da montanha com a elegância da bolha fina.",
+        "vineyard": "Gualtallary, Tupungato, Mendoza. A mais de 1.300 m.s.n.m.",
+        "vinification": "Método tradicional. Fermentação secundária em garrafa. Repouso mínimo de 18 meses sur lie.",
+        "tastingNotes": "Amarelo pálido com bolha fina e persistente. Nariz de frutas brancas, notas tostadas, pão recém-assado. Na boca é fresco, elegante, com boa acidez e um final longo.",
+        "winemaker": "Jimena Lopez",
+        "serveTemp": "6-8 °C",
+        "aging": "Consumir jovem"
+      },
+      "ensamble-otonal": {
+        "philosophy": "Um blend que captura o calor e a riqueza do outono em Mendoza.",
+        "vineyard": "Gualtallary, Tupungato, Mendoza. A mais de 1.300 m.s.n.m.",
+        "vinification": "Colheita manual. Fermentação separada por variedade. Repouso em barris de carvalho francês por 10 meses.",
+        "tastingNotes": "Cor vermelha intensa com reflexos violáceos. Nariz de frutas vermelhas e negras maduras, especiarias, um toque balsâmico. Na boca é generoso, com taninos maduros, boa acidez e um final quente e agradável.",
+        "winemaker": "Jimena Lopez",
+        "serveTemp": "16 °C",
+        "aging": "Apto para guarda de 3-5 anos"
+      },
+      "blanc-de-malbec": {
+        "philosophy": "Uma exclusividade da Andeluna: uva tinta vinificada em branco. Um vinho único e surpreendente.",
+        "vineyard": "Gualtallary, Tupungato, Mendoza. A mais de 1.300 m.s.n.m.",
+        "vinification": "Colheita manual. Prensagem suave e rápida para evitar contato com a pele. Fermentação em tanques de aço inoxidável.",
+        "tastingNotes": "Amarelo pálido com reflexos dourados. Nariz de frutas brancas, flores, um toque exótico. Na boca é fresco, elegante, com boa acidez e um final mineral e persistente.",
+        "winemaker": "Jimena Lopez",
+        "serveTemp": "8-10 °C",
+        "aging": "Consumir jovem"
+      },
+      "wine-not": {
+        "philosophy": "A etiqueta mais divertida da Andeluna. Um Malbec jovem para desfrutar sem formalidades.",
+        "vineyard": "Gualtallary, Tupungato, Mendoza. A mais de 1.300 m.s.n.m.",
+        "vinification": "Colheita manual. Fermentação em tanques de aço inoxidável. Sem envelhecimento em madeira.",
+        "tastingNotes": "Cor vermelho-violeta intensa. Nariz de frutas vermelhas frescas, suculentas, um toque floral. Na boca é fresco, frutado, direto, com taninos suaves e um final agradável e divertido.",
+        "winemaker": "Jimena Lopez",
+        "serveTemp": "14-16 °C",
+        "aging": "Consumir jovem"
+      },
+      "semillon": {
+        "philosophy": "Um Sémillon que mostra a elegância e a frescura da variedade em alta montanha.",
+        "vineyard": "Gualtallary, Tupungato, Mendoza. A mais de 1.300 m.s.n.m.",
+        "vinification": "Colheita manual. Fermentação em tanques de aço inoxidável. Sem envelhecimento em madeira.",
+        "tastingNotes": "Amarelo pálido com reflexos esverdeados. Nariz cítrico com notas de limão, ervas, um toque mineral. Na boca é fresco, tenso, com boa acidez e um final mineral e elegante.",
+        "winemaker": "Jimena Lopez",
+        "serveTemp": "8-10 °C",
+        "aging": "Consumir jovem"
+      }
+    },
     "ui": {
       "bottleOf": "Garrafa de",
       "reserve": "Reservar",
