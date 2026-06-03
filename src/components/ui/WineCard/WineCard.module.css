@@ -9,6 +9,7 @@
   align-items: center;
   padding: 32px 20px 28px;
   text-align: center;
+  text-decoration: none;
 }
 
 .card:hover {
@@ -109,4 +110,25 @@
   font-weight: 300;
   color: var(--color-muted);
   line-height: 1.5;
+}
+
+.viewDetail {
+  display: inline-flex;
+  align-items: center;
+  gap: 6px;
+  font-family: var(--font-body);
+  font-size: 0.65rem;
+  font-weight: 600;
+  text-transform: uppercase;
+  letter-spacing: 0.15em;
+  color: var(--color-gold);
+  margin-top: 12px;
+  opacity: 0;
+  transform: translateY(4px);
+  transition: opacity 0.4s ease, transform 0.4s ease;
+}
+
+.card:hover .viewDetail {
+  opacity: 1;
+  transform: translateY(0);
 }

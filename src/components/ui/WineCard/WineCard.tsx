@@ -2,6 +2,7 @@
 
 import Image from 'next/image'
 import { useTranslations } from 'next-intl'
+import { Link } from '@/i18n/navigation'
 import { Wine } from '@/types/wine'
 import styles from './WineCard.module.css'
 
@@ -13,7 +14,7 @@ export default function WineCard({ wine }: WineCardProps) {
   const t = useTranslations('common')
 
   return (
-    <article className={styles.card}>
+    <Link href={`/vinos/${wine.id}`} className={styles.card}>
       <div className={styles.bottleWrap}>
         <Image
           src={wine.image}
@@ -36,7 +37,13 @@ export default function WineCard({ wine }: WineCardProps) {
         <h4 className={styles.name}>{wine.name}</h4>
         <p className={styles.varietals}>{wine.varietals.join(' · ')}</p>
         <p className={styles.description}>{wine.description}</p>
+        <span className={styles.viewDetail}>
+          {t('wines.viewDetails')}
+          <svg width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2">
+            <path d="M5 12h14M12 5l7 7-7 7" />
+          </svg>
+        </span>
       </div>
-    </article>
+    </Link>
   )
 }

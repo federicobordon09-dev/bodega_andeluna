@@ -58,7 +58,7 @@ export default function WineMegaMenu() {
                         {sub.wines.map((wine) => (
                           <li key={wine.id}>
                             <Link
-                              href="/vinos"
+                              href={`/vinos/${wine.id}`}
                               className={styles.subLink}
                               onClick={() => { setIsOpen(false); setActiveLine(null) }}
                             >
@@ -81,7 +81,7 @@ export default function WineMegaMenu() {
                 sub.wines.map((wine) => (
                   <li key={wine.id}>
                     <Link
-                      href="/vinos"
+                      href={`/vinos/${wine.id}`}
                       className={styles.parentLink}
                       onClick={() => setIsOpen(false)}
                     >
