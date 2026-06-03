@@ -5,34 +5,14 @@ import { useParams } from 'next/navigation'
 import Image from 'next/image'
 import { Link } from '@/i18n/navigation'
 import AnimatedSection from '@/components/ui/AnimatedSection/AnimatedSection'
-import { wineLines } from '@/data/wines'
-import type { Wine } from '@/types/wine'
+import { findWineById } from '@/data/wines'
 import styles from './page.module.css'
-
-function findWine(id: string): { wine: Wine; lineId: string; subLineId: string } | null {
-  for (const line of wineLines) {
-    for (const sub of line.subLines) {
-      const wine = sub.wines.find((w) => w.id === id)
-      if (wine) return { wine, lineId: line.id, subLineId: sub.id }
-    }
-  }
-  return null
-}
-
-function getWineDescription(id: string, t: ReturnType<typeof useTranslations>): string {
-  const key = `wineDescriptions.${id.replace(/-/g, '')}`
-  try {
-    return t(key)
-  } catch {
-    return ''
-  }
-}
 
 export default function WineDetailPage() {
   const params = useParams()
   const t = useTranslations('common')
   const id = params.id as string
-  const result = findWine(id)
+  const result = findWineById(id)
 
   if (!result) {
     return (
@@ -50,7 +30,6 @@ export default function WineDetailPage() {
 
   const { wine, lineId, subLineId } = result
   const lineName = lineId === 'central' ? t('wines.lineCentral') : t('wines.especial')
-  const description = getWineDescription(wine.id, t) || wine.description
 
   return (
     <>
@@ -72,16 +51,16 @@ export default function WineDetailPage() {
             <span className={styles.eyebrow}>{lineName}</span>
             <h1 className={styles.title}>{wine.name}</h1>
             {wine.score && (
-              <div className={styles.score}>
-                <span className={styles.scoreNumber}>{wine.score}</span>
-                <span className={styles.scoreSource}>{wine.scoreSource}</span>
+              <div className={styles.heroScore}>
+                <span className={styles.heroScoreNumber}>{wine.score}</span>
+                <span className={styles.heroScoreSource}>{wine.scoreSource}</span>
               </div>
             )}
           </AnimatedSection>
         </div>
       </section>
 
-      {/* Detail */}
+      {/* Bottle + Info */}
       <section className={styles.detail}>
         <div className={styles.container}>
           <div className={styles.detailGrid}>
@@ -100,24 +79,15 @@ export default function WineDetailPage() {
 
             <AnimatedSection delay={100}>
               <div className={styles.info}>
-                <span className={styles.eyebrow}>{subLineId}</span>
-                <h2 className={styles.infoTitle}>{wine.name}</h2>
-
                 <div className={styles.varietals}>
                   {wine.varietals.map((v) => (
                     <span key={v} className={styles.varietal}>{v}</span>
                   ))}
                 </div>
+                <h2 className={styles.infoTitle}>{wine.name}</h2>
 
-                <p className={styles.description}>{description}</p>
-
-                {wine.award && (
-                  <div className={styles.award}>
-                    <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2">
-                      <path d="M12 15l-2 5l9-13h-5l2-5-9 13h5z" />
-                    </svg>
-                    <span>{wine.award}</span>
-                  </div>
+                {wine.philosophy && (
+                  <p className={styles.philosophy}>{wine.philosophy}</p>
                 )}
 
                 <div className={styles.actions}>
@@ -142,6 +112,98 @@ export default function WineDetailPage() {
               </div>
             </AnimatedSection>
           </div>
+        </div>
+      </section>
+
+      {/* Detailed Info Sections */}
+      <section className={styles.sections}>
+        <div className={styles.container}>
+
+          {/* Vineyard */}
+          {wine.vineyard && (
+            <AnimatedSection>
+              <div className={styles.sectionBlock}>
+                <span className={styles.sectionEyebrow}>Viñedos</span>
+                <h3 className={styles.sectionTitle}>Nuestros Viñedos</h3>
+                <p className={styles.sectionText}>{wine.vineyard}</p>
+              </div>
+            </AnimatedSection>
+          )}
+
+          {/* Vinification */}
+          {wine.vinification && (
+            <AnimatedSection>
+              <div className={styles.sectionBlock}>
+                <span className={styles.sectionEyebrow}>Vinificación</span>
+                <h3 className={styles.sectionTitle}>Vinificación</h3>
+                <p className={styles.sectionText}>{wine.vinification}</p>
+              </div>
+            </AnimatedSection>
+          )}
+
+          {/* Tasting Notes */}
+          {wine.tastingNotes && (
+            <AnimatedSection>
+              <div className={styles.sectionBlock}>
+                <span className={styles.sectionEyebrow}>Notas de Cata</span>
+                <h3 className={styles.sectionTitle}>Notas de Cata</h3>
+                <p className={styles.sectionText}>{wine.tastingNotes}</p>
+                {wine.serveTemp && (
+                  <p className={styles.serveTemp}>Servir a {wine.serveTemp}. {wine.aging || ''}</p>
+                )}
+              </div>
+            </AnimatedSection>
+          )}
+
+          {/* Winemaker */}
+          {wine.winemaker && (
+            <AnimatedSection>
+              <div className={styles.sectionBlock}>
+                <span className={styles.sectionEyebrow}>Enólogo jefe</span>
+                <h3 className={styles.sectionTitle}>Enólogo jefe</h3>
+                <p className={styles.sectionText}>{wine.winemaker}</p>
+              </div>
+            </AnimatedSection>
+          )}
+
+          {/* Scores */}
+          {wine.scores && wine.scores.length > 0 && (
+            <AnimatedSection>
+              <div className={styles.sectionBlock}>
+                <span className={styles.sectionEyebrow}>Puntajes</span>
+                <h3 className={styles.sectionTitle}>Puntajes</h3>
+                <div className={styles.scoresList}>
+                  {wine.scores.map((s, i) => (
+                    <div key={i} className={styles.scoreRow}>
+                      <span className={styles.scoreCritic}>{s.critic}</span>
+                      <span className={styles.scoreDivider}>|</span>
+                      <span className={styles.scoreVintage}>Cosecha {s.vintage}</span>
+                      <span className={styles.scoreDivider}>|</span>
+                      <span className={styles.scoreValue}>{s.score} pts.</span>
+                    </div>
+                  ))}
+                </div>
+              </div>
+            </AnimatedSection>
+          )}
+
+          {/* Single score fallback */}
+          {!wine.scores && wine.score && (
+            <AnimatedSection>
+              <div className={styles.sectionBlock}>
+                <span className={styles.sectionEyebrow}>Puntajes</span>
+                <h3 className={styles.sectionTitle}>Puntajes</h3>
+                <div className={styles.scoresList}>
+                  <div className={styles.scoreRow}>
+                    <span className={styles.scoreCritic}>{wine.scoreSource}</span>
+                    <span className={styles.scoreDivider}>|</span>
+                    <span className={styles.scoreValue}>{wine.score} pts.</span>
+                  </div>
+                </div>
+              </div>
+            </AnimatedSection>
+          )}
+
         </div>
       </section>
     </>

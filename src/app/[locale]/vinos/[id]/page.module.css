@@ -53,14 +53,14 @@
   line-height: 1.1;
 }
 
-.score {
+.heroScore {
   display: flex;
   align-items: baseline;
   gap: 10px;
   margin-top: 20px;
 }
 
-.scoreNumber {
+.heroScoreNumber {
   font-family: var(--font-data);
   font-size: 3rem;
   font-weight: 700;
@@ -68,7 +68,7 @@
   line-height: 1;
 }
 
-.scoreSource {
+.heroScoreSource {
   font-family: var(--font-body);
   font-size: 0.85rem;
   color: var(--color-muted);
@@ -137,29 +137,16 @@
   border-radius: 2px;
 }
 
-.description {
-  font-family: var(--font-body);
-  font-size: 1.05rem;
-  font-weight: 300;
+.philosophy {
+  font-family: var(--font-display);
+  font-size: 1.2rem;
+  font-weight: 400;
+  font-style: italic;
   line-height: 1.8;
-  color: var(--color-muted);
-  margin-bottom: 32px;
-}
-
-.award {
-  display: flex;
-  align-items: center;
-  gap: 10px;
-  color: var(--color-gold);
-  font-family: var(--font-body);
-  font-size: 0.85rem;
-  font-weight: 600;
-  text-transform: uppercase;
-  letter-spacing: 0.15em;
+  color: var(--color-cream);
   margin-bottom: 40px;
-  padding: 12px 16px;
-  background: var(--color-gold-dim);
-  border-left: 3px solid var(--color-gold);
+  padding-left: 20px;
+  border-left: 2px solid var(--color-gold);
 }
 
 .actions {
@@ -200,6 +187,103 @@
 
 .reserveButton:hover {
   background: var(--color-gold-light);
+}
+
+/* Sections */
+.sections {
+  padding: clamp(40px, 6vw, 80px) 0 clamp(80px, 10vw, 120px);
+  border-top: 1px solid var(--color-gold-border);
+}
+
+.sectionBlock {
+  margin-bottom: 60px;
+}
+
+.sectionBlock:last-child {
+  margin-bottom: 0;
+}
+
+.sectionEyebrow {
+  display: inline-block;
+  font-family: var(--font-body);
+  font-size: 0.65rem;
+  font-weight: 400;
+  text-transform: uppercase;
+  letter-spacing: 0.3em;
+  color: var(--color-gold);
+  margin-bottom: 12px;
+}
+
+.sectionTitle {
+  font-family: var(--font-display);
+  font-size: clamp(1.5rem, 2.5vw, 2rem);
+  font-weight: 700;
+  font-style: italic;
+  color: var(--color-cream);
+  margin-bottom: 16px;
+}
+
+.sectionText {
+  font-family: var(--font-body);
+  font-size: 1rem;
+  font-weight: 300;
+  line-height: 1.8;
+  color: var(--color-muted);
+}
+
+.serveTemp {
+  font-family: var(--font-body);
+  font-size: 0.9rem;
+  font-weight: 400;
+  color: var(--color-cream);
+  margin-top: 16px;
+  padding: 12px 16px;
+  background: var(--color-gold-dim);
+  border-left: 3px solid var(--color-gold);
+  display: inline-block;
+}
+
+/* Scores */
+.scoresList {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+}
+
+.scoreRow {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  padding: 10px 0;
+  border-bottom: 1px solid rgba(201, 168, 76, 0.1);
+}
+
+.scoreCritic {
+  font-family: var(--font-body);
+  font-size: 0.9rem;
+  font-weight: 600;
+  color: var(--color-cream);
+  min-width: 140px;
+}
+
+.scoreDivider {
+  color: var(--color-gold-border);
+  font-size: 0.8rem;
+}
+
+.scoreVintage {
+  font-family: var(--font-body);
+  font-size: 0.85rem;
+  font-weight: 300;
+  color: var(--color-muted);
+}
+
+.scoreValue {
+  font-family: var(--font-data);
+  font-size: 1rem;
+  font-weight: 700;
+  color: var(--color-gold);
+  margin-left: auto;
 }
 
 /* Not found */
@@ -251,5 +335,18 @@
 
   .actions {
     flex-direction: column;
+  }
+
+  .scoreRow {
+    flex-wrap: wrap;
+    gap: 4px;
+  }
+
+  .scoreCritic {
+    min-width: auto;
+  }
+
+  .scoreValue {
+    margin-left: 0;
   }
 }
